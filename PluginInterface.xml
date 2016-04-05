@@ -1,0 +1,2814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>PluginInterface</name>
+  </assembly>
+  <members>
+    <member name="T:rdjInterface.ButtonActions">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.ButtonActions</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.ButtonActions.MainPlay"></member>
+    <member name="F:rdjInterface.ButtonActions.MainPause"></member>
+    <member name="F:rdjInterface.ButtonActions.MainStop"></member>
+    <member name="F:rdjInterface.ButtonActions.MainStopWithFade"></member>
+    <member name="F:rdjInterface.ButtonActions.PlayFromIntro"></member>
+    <member name="F:rdjInterface.ButtonActions.PlayFromLoop"></member>
+    <member name="F:rdjInterface.ButtonActions.PlayFromOutro"></member>
+    <member name="F:rdjInterface.ButtonActions.Restart"></member>
+    <member name="F:rdjInterface.ButtonActions.ToggleAutoDJ"></member>
+    <member name="F:rdjInterface.ButtonActions.ToggleAssisted"></member>
+    <member name="F:rdjInterface.ButtonActions.TooglePauseEvents"></member>
+    <member name="F:rdjInterface.ButtonActions.ToggleInput"></member>
+    <member name="F:rdjInterface.ButtonActions.Mute"></member>
+    <member name="F:rdjInterface.ButtonActions.MainVolume"></member>
+    <member name="F:rdjInterface.ButtonActions.MainTrackVolume"></member>
+    <member name="T:rdjInterface.EventAction">
+      <summary>
+ The class that holds the plugin actions
+ </summary>
+    </member>
+    <member name="M:rdjInterface.EventAction.#ctor(System.String,System.String,rdjInterface.PluginActionTypes,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>rdjInterface.EventAction</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="PluginsName">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>PluginsName</parameter>
+            <parameter>M:rdjInterface.EventAction.#ctor(System.String,System.String,rdjInterface.PluginActionTypes,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="actionsName">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>actionsName</parameter>
+            <parameter>M:rdjInterface.EventAction.#ctor(System.String,System.String,rdjInterface.PluginActionTypes,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="actionsType">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>actionsType</parameter>
+            <parameter>M:rdjInterface.EventAction.#ctor(System.String,System.String,rdjInterface.PluginActionTypes,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="actionsDescription">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>actionsDescription</parameter>
+            <parameter>M:rdjInterface.EventAction.#ctor(System.String,System.String,rdjInterface.PluginActionTypes,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="F:rdjInterface.EventAction.ActionName">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:rdjInterface.EventAction.ActionName</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.EventAction.ActionType">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:rdjInterface.EventAction.ActionType</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.EventAction.Description">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:rdjInterface.EventAction.Description</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.EventAction.PluginName">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:rdjInterface.EventAction.PluginName</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.EventAction.ToString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.EventAction.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.EventAction.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:rdjInterface.IHost">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.IHost</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.Add2Playlist(rdjInterface.SongData,System.Int32)">
+      <summary>
+ Add file to the playlist by passing a SongData class instance
+ </summary>
+      <param name="trackID">trackData As SongData</param>
+      <param name="playlistPosition">Optional Position to insert, default 0</param>
+      <param name="trackData">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trackData</parameter>
+            <parameter>M:rdjInterface.IHost.Add2Playlist(rdjInterface.SongData,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.Add2Playlist(System.Int32,System.Int32)">
+      <summary>
+ Add file to the main playlist by database track ID
+ </summary>
+      <param name="trackID">Database track ID</param>
+      <param name="playlistPosition">Optional Position to insert, default 0</param>
+    </member>
+    <member name="M:rdjInterface.IHost.AddPlaylist(System.Int32,System.Int32)">
+      <summary>
+ Ads a playlist to the main playlist
+ </summary>
+      <param name="PlaylistID">The playlist ID as Integer</param>
+      <param name="PlaylistPosition">0=insert to start, 2=insert to end, 3=replace playlist</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.AddPlaylist(System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.IHost.AddPlaylist(System.String,System.Int32)">
+      <summary>
+ Ads a playlist to the main playlists
+ </summary>
+      <param name="PlaylistPath">The .pls or .m3u playlist path as string</param>
+      <param name="AddPosition">0=insert to start, 2=insert to end, 3=replace playlist</param>
+      <param name="PlaylistPosition">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>PlaylistPosition</parameter>
+            <parameter>M:rdjInterface.IHost.AddPlaylist(System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.AddPlaylist(System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:rdjInterface.IHost.AddTrackWithSweeper">
+      <summary>
+ Get/Set add track from search window to playlist with a sweeper
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.AlwaysOnTop">
+      <summary>
+ Get Always on top state
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.ArtworkEnabled">
+      <summary>
+ Get state of Artwork
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.ArtworkPath">
+      <summary>
+ Get path of the Artwork folder
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.ClearPlaylist">
+      <summary>
+ Clear current playlist
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.CreateTrackHandle(rdjInterface.SongData@,rdjInterface.SoundCards,System.Boolean,System.Boolean)">
+      <summary>
+ Get a handle for the track
+ </summary>
+      <param name="trackData">The track data</param>
+      <param name="SoundCard2Use">the soundcard to be used.</param>
+      <param name="AddEnvelopes">Add volume envelopes (fade in/out)</param>
+      <param name="FreeOnStop">Release the audio file when stopping.</param>
+      <returns>True for success/False if error occured</returns>
+    </member>
+    <member name="P:rdjInterface.IHost.CurrentRotation">
+      <summary>
+ Get/Set Current Rotation path
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.CurrentRotationName">
+      <summary>
+ Get Current Rotation name
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.DefaultPriority">
+      <summary>
+ Get the default track priority
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.DeleteFromPlaylist(System.Int32)">
+      <summary>
+ Delete an entry from the playlist
+ </summary>
+      <param name="playlistPosition">Zero based playlist position</param>
+      <param name="trackNumber">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trackNumber</parameter>
+            <parameter>M:rdjInterface.IHost.DeleteFromPlaylist(System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.DeleteTrack(System.Int32)">
+      <summary>
+ Delete a track from database
+ </summary>
+      <param name="trackID">track ID to delete</param>
+      <returns>Number of affected database rows</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.DisableTrack(System.Int32)">
+      <summary>
+ Disable a track from database
+ </summary>
+      <param name="trackID">track ID to disable</param>
+      <returns>Number of affected database rows</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.EnableTrack(System.Int32)">
+      <summary>
+ Enable a track from database
+ </summary>
+      <param name="trackID">track ID to enable</param>
+      <returns>Number of affected database rows</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.FixThisTimespan(System.Double,System.String)">
+      <summary>
+ Transforms seconds in hour, minutes, seconds
+ </summary>
+      <param name="Seconds">Time in seconds</param>
+      <param name="Format">Time format</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.FixThisTimespan(System.Double,System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.IHost.GetPluginActions">
+      <summary>
+ Get the available actions from the installed plugins
+ </summary>
+      <returns>A list with the Event Actions</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.GetSetting(System.String,System.String,System.String)">
+      <summary>
+ Gets the value of a key from the plugin settings file
+ </summary>
+      <param name="FileName">Plugin settings filename without extension</param>
+      <param name="Key">The string key for which to retrieve the value</param>
+      <param name="defaultValue">If the value doesn't exist</param>
+      <returns>The value of the key as string</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.GetSongs(System.String,System.Windows.Forms.DataGridView@)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IHost.GetSongs(System.String,System.Windows.Forms.DataGridView@)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="sql">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>sql</parameter>
+            <parameter>M:rdjInterface.IHost.GetSongs(System.String,System.Windows.Forms.DataGridView@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="dgv">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>dgv</parameter>
+            <parameter>M:rdjInterface.IHost.GetSongs(System.String,System.Windows.Forms.DataGridView@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.GetSongs(System.String,System.Windows.Forms.DataGridView@)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:rdjInterface.IHost.GetSoundCard(rdjInterface.SoundCards)">
+      <summary>
+ Get the Main Sound Card BASS ID
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.GetTypeColor(System.Int32)">
+      <summary>
+ custom colors for files
+ see the TrackTypes at the end of the file for help
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.GetTypeTitle(System.Int32)">
+      <summary>
+ custom titles for streaming
+ see the TrackTypes at the end of the file for help
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.ImportFile(rdjInterface.SongData)">
+      <summary>
+ Imports a single file to the database
+ </summary>
+      <param name="FileData">An existing songdata class</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(rdjInterface.SongData)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.IHost.ImportFile(System.String,System.Boolean,System.Int32,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(System.String,System.Boolean,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="FilePath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>FilePath</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(System.String,System.Boolean,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="fromURL">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>fromURL</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(System.String,System.Boolean,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="subcatID">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>subcatID</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(System.String,System.Boolean,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="genreID">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>genreID</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(System.String,System.Boolean,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(System.String,System.Boolean,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.IHost.ImportFile(System.String[],System.Boolean,System.Int32,System.Int32)">
+      <summary>
+ Imports multiple files from an array
+ </summary>
+      <param name="filePaths">The paths array as String()</param>
+      <param name="fromURL">False for local file, True for internet streams.</param>
+      <param name="subcatID">The ID of the subcategory to be assigned.</param>
+      <param name="genreID">The ID of the genre to be assigned.</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.ImportFile(System.String[],System.Boolean,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.IHost.Lang(System.String,System.String)">
+      <summary>
+ Load a translations string
+ </summary>
+      <param name="langFile">The language filename without extension.</param>
+      <param name="key">Key containing the translation</param>
+      <returns>The value of the key as a string</returns>
+    </member>
+    <member name="P:rdjInterface.IHost.Listeners">
+      <summary>
+ Get/Set the listeners number
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.LoadSweeper2Track(rdjInterface.SongData@,System.Int32,System.Int64,System.Boolean)">
+      <summary>
+ Add Sweeper data to the specified track
+ </summary>
+      <param name="track">Track as rdjInterface.SongData</param>
+      <param name="swID">Sweeper ID if any, or 0 for random</param>
+      <param name="swPlay">The second to play the sweeper, or -10 for start, -20 for intro, -30 for playing before end.</param>
+      <param name="checkQueue">If true, don't choose a sweeper that is already in the queue.</param>
+      <param name="ignoreList">An integer array of ID to ignore</param>
+      <param name="trackData">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trackData</parameter>
+            <parameter>M:rdjInterface.IHost.LoadSweeper2Track(rdjInterface.SongData@,System.Int32,System.Int64,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.LoadTrackInfo(rdjInterface.SongData@)">
+      <summary>
+ Load the info into existing songdata class.
+ The ID member must be already set in the songdata class
+ </summary>
+      <param name="trackData">Track ID as Integer</param>
+      <returns>True for success, False for failure</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.LoadTrackInfo(System.Int32)">
+      <summary>
+ Load the info for the specified track ID.
+ </summary>
+      <param name="trackID">Track ID as Integer</param>
+      <returns>rdjInterface.SongData</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.LoadVoicetrack2Track(rdjInterface.SongData@,System.Int32,System.Int64)">
+      <summary>
+ Add Voice Track data to the specified track
+ </summary>
+      <param name="track">Track as rdjInterface.SongData</param>
+      <param name="vtID">Voice Track ID</param>
+      <param name="vtPlay">The second to play the Voice Track, or -10 for start, -20 for intro, -30 for playing before end.</param>
+      <param name="trackData">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trackData</parameter>
+            <parameter>M:rdjInterface.IHost.LoadVoicetrack2Track(rdjInterface.SongData@,System.Int32,System.Int64)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.LogMe(System.String,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IHost.LogMe(System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="logMessage">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>logMessage</parameter>
+            <parameter>M:rdjInterface.IHost.LogMe(System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="AsError">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>AsError</parameter>
+            <parameter>M:rdjInterface.IHost.LogMe(System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:rdjInterface.IHost.MainAssisted">
+      <summary>
+ Get/Set Assisted State
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.MainAutoDJ">
+      <summary>
+ Get/Set AutoDJ State
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.MainMixerHandle">
+      <summary>
+ Get the Main Mixer BASS handle
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.MainMute">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.MainMute</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.MainPlaylist">
+      <summary>
+ Get/Set main Playlist
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.MainTrackVolume">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.MainTrackVolume</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.MainVolume">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.MainVolume</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.MakeEnvelope(System.Double,System.Boolean)">
+      <summary>
+ Fade out the curently playing track for the specified duration.
+ </summary>
+      <param name="fDuration">Fade duration in seconds</param>
+      <param name="FadeBack">Fade back to normal volume</param>
+      <param name="fadeDuration">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>fadeDuration</parameter>
+            <parameter>M:rdjInterface.IHost.MakeEnvelope(System.Double,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.MysqlInsert(System.String)">
+      <summary>
+ Run Insert/Update/Delete queries on MySQL database
+ </summary>
+      <param name="query">SQL Query</param>
+      <returns>Affected rows if any</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.MysqlQuery(System.String,System.Data.DataSet@)">
+      <summary>
+ Run a MySQL Query
+ </summary>
+      <param name="query">The SQL Query</param>
+      <param name="ds">The returning results as dataset</param>
+      <returns>The number of results</returns>
+    </member>
+    <member name="P:rdjInterface.IHost.NowPlayingHandle">
+      <summary>
+ Get the currently playing track's BASS handle.
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.OpenPlaylist(System.Int32)">
+      <summary>
+ Open a playlist by playlist ID As a List(Of rdjinterface.SongData)
+ </summary>
+      <param name="playlistID">Playlist ID as Integer</param>
+      <returns>A list of items As List(Of rdjinterface.SongData)</returns>
+    </member>
+    <member name="M:rdjInterface.IHost.OpenPlaylist(System.String)">
+      <summary>
+ Open a M3U playlist from path As a List(Of rdjinterface.SongData)
+ </summary>
+      <param name="playlistPath">Playlist Path as String</param>
+      <returns>A list of items As List(Of rdjinterface.SongData)</returns>
+    </member>
+    <member name="P:rdjInterface.IHost.Pause">
+      <summary>
+ Pause/Unpause main player
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.PauseEvents">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.PauseEvents</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.PlayCartByNumber(System.Int32)">
+      <summary>
+ Play the specified cart player
+ <param name="cartNumber">cart number to play</param></summary>
+      <param name="cartNumber">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>cartNumber</parameter>
+            <parameter>M:rdjInterface.IHost.PlayCartByNumber(System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:rdjInterface.IHost.PlayFromIntro">
+      <summary>
+ Play current track from intro
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.PlayFromLoop">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.PlayFromLoop</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.PlayFromOutro">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.PlayFromOutro</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.Playlist2FullScreen">
+      <summary>
+ Get/Set Playlist to full screen
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.PlayPlaylistTrack(System.Int32,System.Boolean)">
+      <summary>
+ Play the track from the main playlist
+ </summary>
+      <param name="trackID">Zero based playlist position</param>
+      <param name="trackNumber">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trackNumber</parameter>
+            <parameter>M:rdjInterface.IHost.PlayPlaylistTrack(System.Int32,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="WithFade">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>WithFade</parameter>
+            <parameter>M:rdjInterface.IHost.PlayPlaylistTrack(System.Int32,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.PopulateCatList(System.Windows.Forms.ComboBox@,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateCatList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="catCombo">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>catCombo</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateCatList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="WithAny">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>WithAny</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateCatList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.PopulateGenreList(System.Windows.Forms.ComboBox@,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateGenreList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="genreCombo">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>genreCombo</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateGenreList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="WithAny">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>WithAny</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateGenreList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.PopulateSubCatList(System.Int32,System.Windows.Forms.ComboBox@,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateSubCatList(System.Int32,System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="catID">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>catID</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateSubCatList(System.Int32,System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="subCatCombo">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>subCatCombo</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateSubCatList(System.Int32,System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="WithAny">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>WithAny</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateSubCatList(System.Int32,System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.PopulateTrackTypeList(System.Windows.Forms.ComboBox@,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateTrackTypeList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="typeCombobox">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>typeCombobox</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateTrackTypeList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="WithAny">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>WithAny</parameter>
+            <parameter>M:rdjInterface.IHost.PopulateTrackTypeList(System.Windows.Forms.ComboBox@,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:rdjInterface.IHost.ProgramAuthor">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.ProgramAuthor</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.ProgramName">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.ProgramName</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.ProgramPath">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.ProgramPath</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.QueueCount">
+      <summary>
+ Get the number of the items from the main playlist
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.RefreshEvents">
+      <summary>
+ Reload events from the database
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.ReloadZones">
+      <summary>
+ Informs RadioDJ that a plugin just changed it's zone
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.RemainingTime">
+      <summary>
+ Get remaining time of playing track
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.RepeatArtistInterval">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.RepeatArtistInterval</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.RepeatTrackInterval">
+      <summary>
+ Get track repeat interval
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.RestartTrack">
+      <summary>
+ Restarts the playing track
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.RunPluginAction(rdjInterface.EventAction,System.String[])">
+      <summary>
+ Run event by ID
+ </summary>
+      <param name="eventID">The event ID fom the database</param>
+      <param name="EventItem">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>EventItem</parameter>
+            <parameter>M:rdjInterface.IHost.RunPluginAction(rdjInterface.EventAction,System.String[])</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="args">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>args</parameter>
+            <parameter>M:rdjInterface.IHost.RunPluginAction(rdjInterface.EventAction,System.String[])</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IHost.SavePlaylistDB(System.Collections.Generic.List{rdjInterface.SongData},System.String)">
+      <summary>
+ Saves the playlist
+ </summary>
+      <param name="PlaylistData">The list of tracks As List(Of rdjinterface.SongData)</param>
+      <param name="PlaylistName">The name of the new playlist</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.SavePlaylistDB(System.Collections.Generic.List{rdjInterface.SongData},System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.IHost.SavePlaylistM3U(System.Collections.Generic.List{rdjInterface.SongData},System.String)">
+      <summary>
+ Saves the playlist
+ </summary>
+      <param name="PlaylistData">The list of tracks As List(Of rdjinterface.SongData)</param>
+      <param name="PlaylistPath">The path of the new playlist</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.SavePlaylistM3U(System.Collections.Generic.List{rdjInterface.SongData},System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.IHost.SaveSetting(System.String,System.String,System.String)">
+      <summary>
+ Utility for generating/saving plugin configuration file
+ </summary>
+      <param name="FileName">Plugin settings filename without extension.</param>
+      <param name="Key">setting key as string</param>
+      <param name="Value">The string value assigned to the key</param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IHost.SaveSetting(System.String,System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:rdjInterface.IHost.SearchResults">
+      <summary>
+ Search results limit in a page
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.ShowCategoriesEditor">
+      <summary>
+ Shows the category editor window
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.ShowImportFolder">
+      <summary>
+ Shows the import folder window
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IHost.ShowTrackDetails(rdjInterface.SongData,System.Boolean,System.Int32)">
+      <summary>
+ Show the details window for the specified track
+ </summary>
+      <param name="trackData">Track as SongData</param>
+      <param name="RefreshPlaylist">If true, will refresh the main playlist after saving.</param>
+      <param name="Position">An optional ID</param>
+    </member>
+    <member name="M:rdjInterface.IHost.ShowTrackEditor(rdjInterface.SongData,System.String,System.Int32)">
+      <summary>
+ Show the editor window for the specified track
+ </summary>
+      <param name="trackData">Track as SongData</param>
+      <param name="PluginName">The plugin name to send the selected track</param>
+      <param name="Position">An optional ID</param>
+    </member>
+    <member name="M:rdjInterface.IHost.ShowTracksWindow(System.String,System.Int32,System.Double,System.Int32)">
+      <summary>
+ Show the tracks window.
+ </summary>
+      <param name="plugName">The plugin name to send the selected track</param>
+      <param name="trackType">Show only the specified track type</param>
+      <param name="maxTrackDuration">Show only tracks with the minimum specified duration. 0 to disable.</param>
+      <param name="Position">An optional ID</param>
+    </member>
+    <member name="P:rdjInterface.IHost.StopPlaying">
+      <summary>
+ Stop main players
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.StopPlayingWithoutFade">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.IHost.StopPlayingWithoutFade</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.SupportedFormats">
+      <summary>
+ Get the supported extensions
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.SweepersSubcategory">
+      <summary>
+ Get/Set Active Sweepers Subcategory
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.titleMain">
+      <summary>
+ Get formated title for broadcast
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.UnmuteInput">
+      <summary>
+ Enable/Disable Audio input
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IHost.UpdatePlaylist">
+      <summary>
+ Inform plugins that the playlist has changed
+ </summary>
+    </member>
+    <member name="T:rdjInterface.IPlugin">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.IPlugin</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.AddTrack2Plugin(rdjInterface.SongData,System.Int64,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IPlugin.AddTrack2Plugin(rdjInterface.SongData,System.Int64,System.Int32)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="trackData">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trackData</parameter>
+            <parameter>M:rdjInterface.IPlugin.AddTrack2Plugin(rdjInterface.SongData,System.Int64,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="TriggerOn">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>TriggerOn</parameter>
+            <parameter>M:rdjInterface.IPlugin.AddTrack2Plugin(rdjInterface.SongData,System.Int64,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="Position">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>Position</parameter>
+            <parameter>M:rdjInterface.IPlugin.AddTrack2Plugin(rdjInterface.SongData,System.Int64,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IPlugin.AddTrack2Plugin(System.Int32,System.Int64,System.Int32)">
+      <summary>
+ Get the specified track ID from the TracksWindow
+ </summary>
+      <param name="trackID">The track ID as Integer, Trigger value if any</param>
+      <param name="TriggerOn">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>TriggerOn</parameter>
+            <parameter>M:rdjInterface.IPlugin.AddTrack2Plugin(System.Int32,System.Int64,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="Position">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>Position</parameter>
+            <parameter>M:rdjInterface.IPlugin.AddTrack2Plugin(System.Int32,System.Int64,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IPlugin.AssistedStateChanged(System.Boolean)">
+      <summary>
+ The subroutine that will be called when the Assisted state will change
+ </summary>
+      <param name="newState">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>newState</parameter>
+            <parameter>M:rdjInterface.IPlugin.AssistedStateChanged(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IPlugin.AutoDJStateChanged(System.Boolean)">
+      <summary>
+ The subroutine that will be called when the AutoDJ state will change
+ </summary>
+      <param name="newState">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>newState</parameter>
+            <parameter>M:rdjInterface.IPlugin.AutoDJStateChanged(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IPlugin.AvailableActions">
+      <summary>
+ This function will list the plugin actions if any
+ </summary>
+      <returns>The action list</returns>
+    </member>
+    <member name="P:rdjInterface.IPlugin.HasActions">
+      <summary>
+ Notify the main application about the available actions
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.Initialize(rdjInterface.IHost)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IPlugin.Initialize(rdjInterface.IHost)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="Host">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>Host</parameter>
+            <parameter>M:rdjInterface.IPlugin.Initialize(rdjInterface.IHost)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IPlugin.InputStateChanged(System.Boolean)">
+      <summary>
+ The Souncard input state is changed
+ </summary>
+      <param name="newState">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>newState</parameter>
+            <parameter>M:rdjInterface.IPlugin.InputStateChanged(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IPlugin.KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IPlugin.KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="sender">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>sender</parameter>
+            <parameter>M:rdjInterface.IPlugin.KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="e">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>e</parameter>
+            <parameter>M:rdjInterface.IPlugin.KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:rdjInterface.IPlugin.LoadGUI">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IPlugin.LoadGUI</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="guiZone"></param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.IPlugin.LoadGUI</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:rdjInterface.IPlugin.NotifyOnPlaylistChange">
+      <summary>
+ Notify this plugin when playlist changes
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IPlugin.NotifyOnTrackChange">
+      <summary>
+ Notify this plugin when track changes
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IPlugin.NotifyOnUIChange">
+      <summary>
+ Notify this plugin when User Interface controls state changes
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.PlaylistChanged">
+      <summary>
+ The subroutine that will be called when the playlist will change
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IPlugin.PluginDescription">
+      <summary>
+ The description of the plugin
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IPlugin.PluginName">
+      <summary>
+ The name of the plugin
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IPlugin.PluginTitle">
+      <summary>
+ The translated name of the plugin
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IPlugin.PluginVersion">
+      <summary>
+ The version of the plugin
+ </summary>
+    </member>
+    <member name="P:rdjInterface.IPlugin.PluginZone">
+      <summary>
+ The zone that will display the GUI of plugin
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.ReloadCategories">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IPlugin.ReloadCategories</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.ReloadLanguage">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.IPlugin.ReloadLanguage</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.RunAction(System.String,System.String[])">
+      <summary>
+ This function allows you to call plugin functions or subroutines
+ </summary>
+      <param name="ActionName">The name of the action</param>
+      <param name="args">Arguments as string array</param>
+      <returns>True if accepted or false if rejected</returns>
+    </member>
+    <member name="M:rdjInterface.IPlugin.ShowAbout">
+      <summary>
+ Show About Form if any
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.ShowConfig">
+      <summary>
+ Show Configuration Form if any
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.ShowMain">
+      <summary>
+ Show Main Form if any
+ </summary>
+    </member>
+    <member name="M:rdjInterface.IPlugin.TrackChanged(rdjInterface.SongData)">
+      <summary>
+ The subroutine that will be called when the playing track will change
+ </summary>
+      <param name="TrackData">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>TrackData</parameter>
+            <parameter>M:rdjInterface.IPlugin.TrackChanged(rdjInterface.SongData)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:rdjInterface.PluginActionTypes">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.PluginActionTypes</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.PluginActionTypes.SelectPlaylist"></member>
+    <member name="F:rdjInterface.PluginActionTypes.SelectTrackID"></member>
+    <member name="F:rdjInterface.PluginActionTypes.SelectCategoryTrack"></member>
+    <member name="F:rdjInterface.PluginActionTypes.SelectFilePath"></member>
+    <member name="F:rdjInterface.PluginActionTypes.SelectDirectory"></member>
+    <member name="F:rdjInterface.PluginActionTypes.SelectRotation"></member>
+    <member name="F:rdjInterface.PluginActionTypes.SelectCartSet"></member>
+    <member name="F:rdjInterface.PluginActionTypes.PlayItem"></member>
+    <member name="F:rdjInterface.PluginActionTypes.StopItem"></member>
+    <member name="F:rdjInterface.PluginActionTypes.PauseItem"></member>
+    <member name="F:rdjInterface.PluginActionTypes.ClearItem"></member>
+    <member name="F:rdjInterface.PluginActionTypes.Other"></member>
+    <member name="F:rdjInterface.PluginActionTypes.WithoutArguments"></member>
+    <member name="F:rdjInterface.PluginActionTypes.WithPlaylistPosition"></member>
+    <member name="F:rdjInterface.PluginActionTypes.VolumeSetting"></member>
+    <member name="T:rdjInterface.SongData">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.SongData</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.SongData.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>rdjInterface.SongData</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Album">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Album</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.AlbumArt">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.AlbumArt</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Artist">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Artist</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.ArtistPlayed">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.ArtistPlayed</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.AutoFree">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.AutoFree</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueDuration">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueDuration</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueEnd">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueEnd</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueIntro">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueIntro</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueLoopIn">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueLoopIn</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueLoopOut">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueLoopOut</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueNext">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueNext</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueOutro">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueOutro</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bCueStart">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bCueStart</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.BPM">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.BPM</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.bPosition">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.bPosition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.BuyLink">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.BuyLink</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Comments">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Comments</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Composer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Composer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Copyright">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Copyright</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.CountPlayed">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.CountPlayed</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.cueEnd">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.cueEnd</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.cueIntro">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.cueIntro</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.cueLoopIn">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.cueLoopIn</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.cueLoopOut">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.cueLoopOut</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.cueNext">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.cueNext</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.cueOutro">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.cueOutro</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.cueStart">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.cueStart</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.CueTimes">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.CueTimes</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.DatePlayed">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.DatePlayed</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.DateRequested">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.DateRequested</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.DiscNo">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.DiscNo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Duration">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Duration</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Elapsed">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Elapsed</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Enabled">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Enabled</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.EndDate">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.EndDate</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.FadeIn">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.FadeIn</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.FadeOut">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.FadeOut</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.FadeType">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.FadeType</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.SongData.FreePlayer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.SongData.FreePlayer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.HighPrecision">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.HighPrecision</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.ID">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.ID</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.IDGenre">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.IDGenre</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.IDSubcat">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.IDSubcat</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.isOverlay">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.isOverlay</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.IsPaused">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.IsPaused</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.IsPlaying">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.IsPlaying</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.isPodcast">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.isPodcast</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Isrc">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Isrc</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.LimitAction">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.LimitAction</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.LoopMode">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.LoopMode</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.OriginalArtist">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.OriginalArtist</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Path">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Path</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.PlayerGroup">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.PlayerGroup</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.PlayerID">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.PlayerID</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.PlayLimit">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.PlayLimit</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.PlayOnMainMixer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.PlayOnMainMixer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Position">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Position</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Publisher">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Publisher</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Remaining">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Remaining</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.RequestMessage">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.RequestMessage</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.RequestUser">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.RequestUser</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.SetVolumeEnvelopes">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.SetVolumeEnvelopes</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.SongType">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.SongType</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.StartDate">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.StartDate</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Sweepers">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Sweepers</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.swFirst">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.swFirst</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.swID">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.swID</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.swName">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.swName</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.swPlay">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.swPlay</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.SYNCEnd">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.SYNCEnd</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.SYNCFree">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.SYNCFree</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.SyncFreeID">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.SyncFreeID</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Title">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Title</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.SongData.ToString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.SongData.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.SongData.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:rdjInterface.SongData.TrackNo">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.TrackNo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.vtID">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.vtID</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.vtName">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.vtName</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.vtPlay">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.vtPlay</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Weight">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Weight</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.WithLoop">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.WithLoop</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:rdjInterface.SongData.Year">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:rdjInterface.SongData.Year</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:rdjInterface.SoundCards">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.SoundCards</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.SoundCards.Main"></member>
+    <member name="F:rdjInterface.SoundCards.Monitor"></member>
+    <member name="F:rdjInterface.SoundCards.Sweeper"></member>
+    <member name="F:rdjInterface.SoundCards.VT"></member>
+    <member name="F:rdjInterface.SoundCards.Carts"></member>
+    <member name="F:rdjInterface.SoundCards.Aux1"></member>
+    <member name="F:rdjInterface.SoundCards.Aux2"></member>
+    <member name="F:rdjInterface.SoundCards.Aux3"></member>
+    <member name="F:rdjInterface.SoundCards.Aux4"></member>
+    <member name="F:rdjInterface.SoundCards.Aux5"></member>
+    <member name="T:rdjInterface.TableData">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.TableData</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.TableData.#ctor(System.Int32,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>rdjInterface.TableData</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="newId">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>newId</parameter>
+            <parameter>M:rdjInterface.TableData.#ctor(System.Int32,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="newTableName">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>newTableName</parameter>
+            <parameter>M:rdjInterface.TableData.#ctor(System.Int32,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="F:rdjInterface.TableData.TableID">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:rdjInterface.TableData.TableID</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.TableData.TableName">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:rdjInterface.TableData.TableName</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.TableData.ToString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.TableData.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.TableData.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:rdjInterface.TrackFields">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.TrackFields</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.TrackFields.Artist"></member>
+    <member name="F:rdjInterface.TrackFields.Title"></member>
+    <member name="F:rdjInterface.TrackFields.Album"></member>
+    <member name="F:rdjInterface.TrackFields.Intro"></member>
+    <member name="F:rdjInterface.TrackFields.Duration"></member>
+    <member name="F:rdjInterface.TrackFields.Bpm"></member>
+    <member name="F:rdjInterface.TrackFields.OriginalArtist"></member>
+    <member name="F:rdjInterface.TrackFields.Composer"></member>
+    <member name="F:rdjInterface.TrackFields.Year"></member>
+    <member name="F:rdjInterface.TrackFields.Publisher"></member>
+    <member name="F:rdjInterface.TrackFields.ID"></member>
+    <member name="F:rdjInterface.TrackFields.Path"></member>
+    <member name="F:rdjInterface.TrackFields.Enabled"></member>
+    <member name="F:rdjInterface.TrackFields.Weight"></member>
+    <member name="F:rdjInterface.TrackFields.TrackNo"></member>
+    <member name="F:rdjInterface.TrackFields.DiscNo"></member>
+    <member name="F:rdjInterface.TrackFields.DatePlayed"></member>
+    <member name="F:rdjInterface.TrackFields.ArtistPlayed"></member>
+    <member name="F:rdjInterface.TrackFields.Copyright"></member>
+    <member name="F:rdjInterface.TrackFields.Isrc"></member>
+    <member name="F:rdjInterface.TrackFields.AlbumArt"></member>
+    <member name="F:rdjInterface.TrackFields.CountPlayed"></member>
+    <member name="F:rdjInterface.TrackFields.StartDate"></member>
+    <member name="F:rdjInterface.TrackFields.EndDate"></member>
+    <member name="T:rdjInterface.TrackTypes">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.TrackTypes</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:rdjInterface.TrackTypes.Music"></member>
+    <member name="F:rdjInterface.TrackTypes.Jingle"></member>
+    <member name="F:rdjInterface.TrackTypes.Sweeper"></member>
+    <member name="F:rdjInterface.TrackTypes.Voiceover"></member>
+    <member name="F:rdjInterface.TrackTypes.Commercial"></member>
+    <member name="F:rdjInterface.TrackTypes.InternetStream"></member>
+    <member name="F:rdjInterface.TrackTypes.Other"></member>
+    <member name="F:rdjInterface.TrackTypes.VDF"></member>
+    <member name="F:rdjInterface.TrackTypes.Podcast"></member>
+    <member name="F:rdjInterface.TrackTypes.Request"></member>
+    <member name="F:rdjInterface.TrackTypes.News"></member>
+    <member name="F:rdjInterface.TrackTypes.PlaylistEvent"></member>
+    <member name="F:rdjInterface.TrackTypes.FileByDate"></member>
+    <member name="F:rdjInterface.TrackTypes.NewestFromFolder"></member>
+    <member name="T:rdjInterface.Utils">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:rdjInterface.Utils</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.Utils.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>rdjInterface.Utils</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:rdjInterface.Utils.BuildFilename(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.BuildFilename(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="OriginalName">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>OriginalName</parameter>
+            <parameter>M:rdjInterface.Utils.BuildFilename(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.BuildFilename(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.FileNameExtension(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.FileNameExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="FullPath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>FullPath</parameter>
+            <parameter>M:rdjInterface.Utils.FileNameExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.FileNameExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.FileNameWithoutExtension(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.FileNameWithoutExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="FullPath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>FullPath</parameter>
+            <parameter>M:rdjInterface.Utils.FileNameWithoutExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.FileNameWithoutExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.GetDirName(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.GetDirName(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="FullPath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>FullPath</parameter>
+            <parameter>M:rdjInterface.Utils.GetDirName(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.GetDirName(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.GetFileByDate(System.String,System.String,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileByDate(System.String,System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="FilesPath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>FilesPath</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileByDate(System.String,System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="fileTypes">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>fileTypes</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileByDate(System.String,System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="DateMask">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>DateMask</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileByDate(System.String,System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileByDate(System.String,System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.GetFileName(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileName(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="FullPath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>FullPath</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileName(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileName(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.GetFileSize(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileSize(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="MyFilePath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>MyFilePath</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileSize(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.GetFileSize(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.GetFilesRecursive(System.String,System.String,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.GetFilesRecursive(System.String,System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="initial">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>initial</parameter>
+            <parameter>M:rdjInterface.Utils.GetFilesRecursive(System.String,System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="fileTypes">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>fileTypes</parameter>
+            <parameter>M:rdjInterface.Utils.GetFilesRecursive(System.String,System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="recurseDir">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>recurseDir</parameter>
+            <parameter>M:rdjInterface.Utils.GetFilesRecursive(System.String,System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.GetFilesRecursive(System.String,System.String,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.GetNewestFile(System.String,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.GetNewestFile(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="targetFolder">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>targetFolder</parameter>
+            <parameter>M:rdjInterface.Utils.GetNewestFile(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="fileTypes">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>fileTypes</parameter>
+            <parameter>M:rdjInterface.Utils.GetNewestFile(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.GetNewestFile(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.GetPodcastFile(rdjInterface.SongData)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.GetPodcastFile(rdjInterface.SongData)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="trackData">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trackData</parameter>
+            <parameter>M:rdjInterface.Utils.GetPodcastFile(rdjInterface.SongData)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.GetPodcastFile(rdjInterface.SongData)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.QueryFix(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.QueryFix(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="txtInput">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>txtInput</parameter>
+            <parameter>M:rdjInterface.Utils.QueryFix(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.QueryFix(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.SplitSongCue(System.String,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.SplitSongCue(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="SongTime">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>SongTime</parameter>
+            <parameter>M:rdjInterface.Utils.SplitSongCue(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="cuePoint">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>cuePoint</parameter>
+            <parameter>M:rdjInterface.Utils.SplitSongCue(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.SplitSongCue(System.String,System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:rdjInterface.Utils.String2Double(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:rdjInterface.Utils.String2Double(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:rdjInterface.Utils.String2Double(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:rdjInterface.Utils.String2Double(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+  </members>
+</doc>

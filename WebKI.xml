@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="ActionName field" Url="html/36466138-1e2c-84f5-2d41-56183984cc2d.htm" />
+  <HelpKINode Title="ActionType field" Url="html/5471b788-c18f-1249-6015-fa133bd3ff0b.htm" />
+  <HelpKINode Title="Add2Playlist method" Url="html/d6366ebf-b455-851f-61bb-7463071213df.htm" />
+  <HelpKINode Title="AddPlaylist method" Url="html/04d26593-9494-c47f-247b-95b15531c052.htm" />
+  <HelpKINode Title="AddTrack2Plugin method" Url="html/cdd4f29b-7772-7ddc-441c-346d3f76f480.htm" />
+  <HelpKINode Title="AddTrackWithSweeper property" Url="html/53832c46-7a70-54b7-f511-b0edf77b6b30.htm" />
+  <HelpKINode Title="Album enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Album property" Url="html/85d490df-f2d2-622b-5e2a-86afef6b934d.htm" />
+  <HelpKINode Title="AlbumArt enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="AlbumArt property" Url="html/4a9bf2b5-699a-823d-ffc3-019beae97f20.htm" />
+  <HelpKINode Title="AlwaysOnTop property" Url="html/9dd6c9ae-8a45-725c-a7f2-046233b0b102.htm" />
+  <HelpKINode Title="Artist enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Artist property" Url="html/731347be-c1df-db9a-ebdf-1a5cd27bd0cb.htm" />
+  <HelpKINode Title="ArtistPlayed enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="ArtistPlayed property" Url="html/940963f2-1af5-120a-dd20-291f794f9d22.htm" />
+  <HelpKINode Title="ArtworkEnabled property" Url="html/e63899af-43f5-38eb-4776-eb5c1d5a0b78.htm" />
+  <HelpKINode Title="ArtworkPath property" Url="html/efe12ff3-efad-7e48-c8fa-7af6af0d95e9.htm" />
+  <HelpKINode Title="AssistedStateChanged method" Url="html/63b61840-e225-9efe-dd82-4d4b0ac3f7d9.htm" />
+  <HelpKINode Title="AutoDJStateChanged method" Url="html/7d6d457a-4d53-8ce8-5597-d8ea5ffd4f77.htm" />
+  <HelpKINode Title="AutoFree property" Url="html/d95be581-81eb-e065-b4ac-ee48044ed5dc.htm" />
+  <HelpKINode Title="Aux1 enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="Aux2 enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="Aux3 enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="Aux4 enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="Aux5 enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="AvailableActions method" Url="html/fc5c5751-f7e5-4194-91c4-ffcfc2e160d2.htm" />
+  <HelpKINode Title="bCueDuration property" Url="html/7fef1dc1-7122-464c-ae3a-f45c3c18a040.htm" />
+  <HelpKINode Title="bCueEnd property" Url="html/e30ab915-4e84-a971-3e6c-3eea00e38bf7.htm" />
+  <HelpKINode Title="bCueIntro property" Url="html/f5c6d433-5e03-7f57-bf13-871721eb1469.htm" />
+  <HelpKINode Title="bCueLoopIn property" Url="html/471699a6-0dc4-b55b-4797-c3e2be2cd55b.htm" />
+  <HelpKINode Title="bCueLoopOut property" Url="html/74593410-cb3a-3ac3-e1fc-bc8828beb1a8.htm" />
+  <HelpKINode Title="bCueNext property" Url="html/662e3fcb-ec69-ec01-b710-61a924448afb.htm" />
+  <HelpKINode Title="bCueOutro property" Url="html/86a69098-4bfd-4b09-80ac-a830a2f50c00.htm" />
+  <HelpKINode Title="bCueStart property" Url="html/11371bbb-6c78-3358-e44c-e3f335bc4ced.htm" />
+  <HelpKINode Title="Bpm enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="BPM property" Url="html/04e38479-5df2-86bb-de8c-7da508eabc7e.htm" />
+  <HelpKINode Title="bPosition property" Url="html/d7866044-3406-a226-234b-f7a3d6b7f7bf.htm" />
+  <HelpKINode Title="BuildFilename method" Url="html/1a4af707-140a-5079-eaf7-a718c9ae2167.htm" />
+  <HelpKINode Title="ButtonActions enumeration" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="BuyLink property" Url="html/de31300a-b50b-7178-df15-13f1ffc220aa.htm" />
+  <HelpKINode Title="Carts enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="ClearItem enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="ClearPlaylist property" Url="html/8a69ea5d-72ea-8a81-3fe7-5b8ba275d728.htm" />
+  <HelpKINode Title="Comments property" Url="html/e38f7dd0-7ea4-b7b5-2492-4b616e0de1bb.htm" />
+  <HelpKINode Title="Commercial enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="Composer enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Composer property" Url="html/f1d170ed-dc9f-75d3-f991-d0bc9ef0962c.htm" />
+  <HelpKINode Title="Copyright enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Copyright property" Url="html/aa273e32-3c53-ee7a-5d5a-80bd506fad47.htm" />
+  <HelpKINode Title="CountPlayed enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="CountPlayed property" Url="html/2802fea4-3ad0-16ee-5b68-f63589f8c9c7.htm" />
+  <HelpKINode Title="CreateTrackHandle method" Url="html/c00fe103-c33c-b4fe-e6dc-e5dbd40b773a.htm" />
+  <HelpKINode Title="cueEnd property" Url="html/319b0a9e-207f-222c-0e73-b3d6ca6eeb2b.htm" />
+  <HelpKINode Title="cueIntro property" Url="html/dec6f251-bea4-1bae-e4f1-6bdd41f31a2a.htm" />
+  <HelpKINode Title="cueLoopIn property" Url="html/da91197c-adb7-e473-be0e-f7ee4f3d7569.htm" />
+  <HelpKINode Title="cueLoopOut property" Url="html/edb0f8de-9c8a-18f1-9677-3412abda9a1f.htm" />
+  <HelpKINode Title="cueNext property" Url="html/ad7a74ba-78f7-e7b7-ca87-3c369dfa39ac.htm" />
+  <HelpKINode Title="cueOutro property" Url="html/74cafb94-fe05-c89a-5dad-c046dd60c896.htm" />
+  <HelpKINode Title="cueStart property" Url="html/80293b50-afde-d7c8-3147-895490cc695a.htm" />
+  <HelpKINode Title="CueTimes property" Url="html/d1b76594-26a6-27f8-2ece-0f9fb0888f06.htm" />
+  <HelpKINode Title="CurrentRotation property" Url="html/3148f20d-3920-65d2-1046-d41e37d82d61.htm" />
+  <HelpKINode Title="CurrentRotationName property" Url="html/4788dd40-0c42-677e-943d-86fe52afdb9d.htm" />
+  <HelpKINode Title="DatePlayed enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="DatePlayed property" Url="html/eb471240-9f5f-e73c-2299-382bef04feb6.htm" />
+  <HelpKINode Title="DateRequested property" Url="html/3cfe0757-5a83-baa6-58fa-33a94b7027fc.htm" />
+  <HelpKINode Title="DefaultPriority property" Url="html/d855ff0d-e954-b0e0-7941-545ae667c61d.htm" />
+  <HelpKINode Title="DeleteFromPlaylist method" Url="html/c024effc-bf42-9648-111c-30c2ebae7974.htm" />
+  <HelpKINode Title="DeleteTrack method" Url="html/66b008c4-b0f8-daea-c54a-669c0a02b8d1.htm" />
+  <HelpKINode Title="Description field" Url="html/1959956c-67de-41c4-c619-b6eb46e3872e.htm" />
+  <HelpKINode Title="DisableTrack method" Url="html/01ac79e3-dfdd-6e26-f9ba-4a862f0eee88.htm" />
+  <HelpKINode Title="DiscNo enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="DiscNo property" Url="html/3ef69977-d694-3d12-178e-0edd1f635b29.htm" />
+  <HelpKINode Title="Duration enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Duration property" Url="html/4fbdd1be-3680-f880-107c-5c077eb66a92.htm" />
+  <HelpKINode Title="Elapsed property" Url="html/173107f3-0bc1-ee36-bed8-9115ecefa8ee.htm" />
+  <HelpKINode Title="Enabled enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Enabled property" Url="html/73d83355-6efc-4eec-4079-6f64750512de.htm" />
+  <HelpKINode Title="EnableTrack method" Url="html/83673b76-a640-dc94-7a5b-dea8dd1ee6ed.htm" />
+  <HelpKINode Title="EndDate enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="EndDate property" Url="html/f29f9f98-2456-a841-f036-41be7a8dadc9.htm" />
+  <HelpKINode Title="EventAction class">
+    <HelpKINode Title="EventAction Class" Url="html/90b10dbb-a9cb-4283-3152-e44012707822.htm" />
+    <HelpKINode Title="about EventAction class" Url="html/90b10dbb-a9cb-4283-3152-e44012707822.htm" />
+    <HelpKINode Title="constructor" Url="html/97389062-8a3d-a89e-6a07-fa9e43b2357e.htm" />
+    <HelpKINode Title="fields" Url="html/ce135baa-dd8b-6493-f1c5-4b9886a5cdfa.htm" />
+    <HelpKINode Title="methods" Url="html/62c93b3c-c94e-0b63-0a8a-83cfb1ad9495.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventAction.ActionName field" Url="html/36466138-1e2c-84f5-2d41-56183984cc2d.htm" />
+  <HelpKINode Title="EventAction.ActionType field" Url="html/5471b788-c18f-1249-6015-fa133bd3ff0b.htm" />
+  <HelpKINode Title="EventAction.Description field" Url="html/1959956c-67de-41c4-c619-b6eb46e3872e.htm" />
+  <HelpKINode Title="EventAction.EventAction constructor" Url="html/97389062-8a3d-a89e-6a07-fa9e43b2357e.htm" />
+  <HelpKINode Title="EventAction.PluginName field" Url="html/a2e76922-5dd8-7c2d-8500-e3c1113f2557.htm" />
+  <HelpKINode Title="EventAction.ToString method" Url="html/3ad29d96-0d8f-26ba-ebe9-84bfafa4dc34.htm" />
+  <HelpKINode Title="FadeIn property" Url="html/3c866e94-acc4-1360-516a-6220dfdb0575.htm" />
+  <HelpKINode Title="FadeOut property" Url="html/7f2b8371-82f4-2f29-ed01-cdcabf7cb121.htm" />
+  <HelpKINode Title="FadeType property" Url="html/44b06596-ab26-8ed0-0777-c4c8e52a42b8.htm" />
+  <HelpKINode Title="FileByDate enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="FileNameExtension method" Url="html/bcee9d99-4b28-514f-4089-5ea7d03288fe.htm" />
+  <HelpKINode Title="FileNameWithoutExtension method" Url="html/44d1bc4c-5c0c-43fa-b951-84e38afa534f.htm" />
+  <HelpKINode Title="FixThisTimespan method" Url="html/35271976-b788-3a42-951d-b75aa01b804c.htm" />
+  <HelpKINode Title="FreePlayer method" Url="html/a3b08314-0751-b3c3-2819-dde10f61b330.htm" />
+  <HelpKINode Title="GetDirName method" Url="html/b7bd5cf3-6de8-b3db-a3fe-c14db456626e.htm" />
+  <HelpKINode Title="GetFileByDate method" Url="html/1a6cd93b-dfff-5237-929d-90532146ff2b.htm" />
+  <HelpKINode Title="GetFileName method" Url="html/39ce808e-54b1-7084-250a-0f3de9932a8b.htm" />
+  <HelpKINode Title="GetFileSize method" Url="html/223787d3-57ce-91be-95f8-7460d8dba0fa.htm" />
+  <HelpKINode Title="GetFilesRecursive method" Url="html/d2c4de98-17a6-d177-4ba9-41d9af6345ff.htm" />
+  <HelpKINode Title="GetNewestFile method" Url="html/e339c668-8803-7d45-44d4-09051c2a0eb9.htm" />
+  <HelpKINode Title="GetPluginActions method" Url="html/adad9594-bfb2-29c3-25bd-a9590f6b4083.htm" />
+  <HelpKINode Title="GetPodcastFile method" Url="html/73b3c5fe-26ce-93f8-10d0-f3ce583a9cba.htm" />
+  <HelpKINode Title="GetSetting method" Url="html/5a977a2c-1ab3-c487-2f85-f4c21b799aec.htm" />
+  <HelpKINode Title="GetSongs method" Url="html/657a0cdc-b092-ca7e-a756-d46f0a6b9fd9.htm" />
+  <HelpKINode Title="GetSoundCard property" Url="html/a9acb10b-a0c4-9f43-6730-6e1b596edcd9.htm" />
+  <HelpKINode Title="GetTypeColor property" Url="html/1e376b25-a42f-caf6-4118-732c371a7642.htm" />
+  <HelpKINode Title="GetTypeTitle property" Url="html/84f67b21-4301-5d0d-2724-2145afff8304.htm" />
+  <HelpKINode Title="HasActions property" Url="html/87cc69f7-697c-9ded-9713-44d8f112b63f.htm" />
+  <HelpKINode Title="HighPrecision property" Url="html/fcc5c313-9f84-c309-5193-9690e07475e8.htm" />
+  <HelpKINode Title="ID enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="ID property" Url="html/c464d714-da7e-83de-14c2-db3c7dc440db.htm" />
+  <HelpKINode Title="IDGenre property" Url="html/4a38c73e-a44c-3b45-0b27-ae6ac2957f20.htm" />
+  <HelpKINode Title="IDSubcat property" Url="html/4cf0cc31-8ba6-c12d-f749-ada8a9ceccc2.htm" />
+  <HelpKINode Title="IHost interface">
+    <HelpKINode Title="IHost Interface" Url="html/d4f5b4ec-12bb-03e4-cb28-fbab3253105d.htm" />
+    <HelpKINode Title="about IHost interface" Url="html/d4f5b4ec-12bb-03e4-cb28-fbab3253105d.htm" />
+    <HelpKINode Title="methods" Url="html/ea1919b6-d365-54d1-f149-5341499e0b41.htm" />
+    <HelpKINode Title="properties" Url="html/514421cb-1b2d-dc33-4033-73794266a919.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IHost.Add2Playlist method" Url="html/d6366ebf-b455-851f-61bb-7463071213df.htm" />
+  <HelpKINode Title="IHost.AddPlaylist method" Url="html/04d26593-9494-c47f-247b-95b15531c052.htm" />
+  <HelpKINode Title="IHost.AddTrackWithSweeper property" Url="html/53832c46-7a70-54b7-f511-b0edf77b6b30.htm" />
+  <HelpKINode Title="IHost.AlwaysOnTop property" Url="html/9dd6c9ae-8a45-725c-a7f2-046233b0b102.htm" />
+  <HelpKINode Title="IHost.ArtworkEnabled property" Url="html/e63899af-43f5-38eb-4776-eb5c1d5a0b78.htm" />
+  <HelpKINode Title="IHost.ArtworkPath property" Url="html/efe12ff3-efad-7e48-c8fa-7af6af0d95e9.htm" />
+  <HelpKINode Title="IHost.ClearPlaylist property" Url="html/8a69ea5d-72ea-8a81-3fe7-5b8ba275d728.htm" />
+  <HelpKINode Title="IHost.CreateTrackHandle method" Url="html/c00fe103-c33c-b4fe-e6dc-e5dbd40b773a.htm" />
+  <HelpKINode Title="IHost.CurrentRotation property" Url="html/3148f20d-3920-65d2-1046-d41e37d82d61.htm" />
+  <HelpKINode Title="IHost.CurrentRotationName property" Url="html/4788dd40-0c42-677e-943d-86fe52afdb9d.htm" />
+  <HelpKINode Title="IHost.DefaultPriority property" Url="html/d855ff0d-e954-b0e0-7941-545ae667c61d.htm" />
+  <HelpKINode Title="IHost.DeleteFromPlaylist method" Url="html/c024effc-bf42-9648-111c-30c2ebae7974.htm" />
+  <HelpKINode Title="IHost.DeleteTrack method" Url="html/66b008c4-b0f8-daea-c54a-669c0a02b8d1.htm" />
+  <HelpKINode Title="IHost.DisableTrack method" Url="html/01ac79e3-dfdd-6e26-f9ba-4a862f0eee88.htm" />
+  <HelpKINode Title="IHost.EnableTrack method" Url="html/83673b76-a640-dc94-7a5b-dea8dd1ee6ed.htm" />
+  <HelpKINode Title="IHost.FixThisTimespan method" Url="html/35271976-b788-3a42-951d-b75aa01b804c.htm" />
+  <HelpKINode Title="IHost.GetPluginActions method" Url="html/adad9594-bfb2-29c3-25bd-a9590f6b4083.htm" />
+  <HelpKINode Title="IHost.GetSetting method" Url="html/5a977a2c-1ab3-c487-2f85-f4c21b799aec.htm" />
+  <HelpKINode Title="IHost.GetSongs method" Url="html/657a0cdc-b092-ca7e-a756-d46f0a6b9fd9.htm" />
+  <HelpKINode Title="IHost.GetSoundCard property" Url="html/a9acb10b-a0c4-9f43-6730-6e1b596edcd9.htm" />
+  <HelpKINode Title="IHost.GetTypeColor property" Url="html/1e376b25-a42f-caf6-4118-732c371a7642.htm" />
+  <HelpKINode Title="IHost.GetTypeTitle property" Url="html/84f67b21-4301-5d0d-2724-2145afff8304.htm" />
+  <HelpKINode Title="IHost.ImportFile method" Url="html/ef01508a-56d7-a14d-8fce-878f515eee92.htm" />
+  <HelpKINode Title="IHost.Lang method" Url="html/b40ee44c-41bd-019f-9462-4315e524252c.htm" />
+  <HelpKINode Title="IHost.Listeners property" Url="html/8f812e76-81c6-5a51-0230-eb46617b5fd1.htm" />
+  <HelpKINode Title="IHost.LoadSweeper2Track method" Url="html/eaaa5b86-0c49-2d4d-51f4-115b1673f5f4.htm" />
+  <HelpKINode Title="IHost.LoadTrackInfo method" Url="html/900f9141-0f2a-9d8f-37dd-4912250dc906.htm" />
+  <HelpKINode Title="IHost.LoadVoicetrack2Track method" Url="html/d9ebeed5-d7a0-615a-c962-a3aeec31c850.htm" />
+  <HelpKINode Title="IHost.LogMe method" Url="html/8d8698ac-bd64-92c0-a857-00619d8015b5.htm" />
+  <HelpKINode Title="IHost.MainAssisted property" Url="html/aa615741-900c-b493-b09d-b728311aea2f.htm" />
+  <HelpKINode Title="IHost.MainAutoDJ property" Url="html/3ee74b7d-3ad2-618c-2fe6-0c706485adc0.htm" />
+  <HelpKINode Title="IHost.MainMixerHandle property" Url="html/2147c117-0958-541f-66a1-8ef3eb74c7d6.htm" />
+  <HelpKINode Title="IHost.MainMute property" Url="html/1bc63e22-3598-5f21-e298-53a17182d36d.htm" />
+  <HelpKINode Title="IHost.MainPlaylist property" Url="html/17fcb22a-7eab-9c24-2c9b-5ca320ce9fc9.htm" />
+  <HelpKINode Title="IHost.MainTrackVolume property" Url="html/f00ebabf-40fd-45fb-0013-108f70b89286.htm" />
+  <HelpKINode Title="IHost.MainVolume property" Url="html/374179d2-cb2c-cc71-4243-20ba9e41fcc4.htm" />
+  <HelpKINode Title="IHost.MakeEnvelope method" Url="html/5894c84b-d531-f984-e914-7354e78af633.htm" />
+  <HelpKINode Title="IHost.MysqlInsert method" Url="html/76937437-cf0b-18b2-5121-9204d658bea0.htm" />
+  <HelpKINode Title="IHost.MysqlQuery method" Url="html/b4e7bd55-4fa6-0e1e-ee7d-3746968d2965.htm" />
+  <HelpKINode Title="IHost.NowPlayingHandle property" Url="html/7db28c5c-1166-fbfe-4634-a575a97a172d.htm" />
+  <HelpKINode Title="IHost.OpenPlaylist method" Url="html/e5112bb5-cf16-b95d-d2a3-325605556bfb.htm" />
+  <HelpKINode Title="IHost.Pause property" Url="html/fa28af0e-d107-d560-a885-66f5d8037cb7.htm" />
+  <HelpKINode Title="IHost.PauseEvents property" Url="html/19ddbd06-5a30-16a3-9f9f-e091f674310d.htm" />
+  <HelpKINode Title="IHost.PlayCartByNumber method" Url="html/19abb619-df75-2f57-18cd-ddb232b0b94d.htm" />
+  <HelpKINode Title="IHost.PlayFromIntro property" Url="html/d480e976-8155-8071-0a36-c1f43230efda.htm" />
+  <HelpKINode Title="IHost.PlayFromLoop property" Url="html/35635fce-631d-2b18-e8bc-f7799057f910.htm" />
+  <HelpKINode Title="IHost.PlayFromOutro property" Url="html/150f73b8-ac2b-601d-f7e0-b86063750876.htm" />
+  <HelpKINode Title="IHost.Playlist2FullScreen property" Url="html/f469a24a-318b-31c9-5e2f-52098fe94c2d.htm" />
+  <HelpKINode Title="IHost.PlayPlaylistTrack method" Url="html/693e6ed7-6dfb-e9a3-fa0e-2664917fe811.htm" />
+  <HelpKINode Title="IHost.PopulateCatList method" Url="html/ed2750a3-a406-a430-744e-c1c15076a1ec.htm" />
+  <HelpKINode Title="IHost.PopulateGenreList method" Url="html/3b0531b5-a5c8-ed35-569a-1e49814abfd6.htm" />
+  <HelpKINode Title="IHost.PopulateSubCatList method" Url="html/49c5640e-993b-c9d3-76ec-905ccc3c3838.htm" />
+  <HelpKINode Title="IHost.PopulateTrackTypeList method" Url="html/f07915e1-e002-da80-2fbe-970bbcfe7e3b.htm" />
+  <HelpKINode Title="IHost.ProgramAuthor property" Url="html/2473ead6-64ef-9151-b78d-48a9d0845f5b.htm" />
+  <HelpKINode Title="IHost.ProgramName property" Url="html/f2d67d8c-c94e-cbb0-8ba4-57ce967542fe.htm" />
+  <HelpKINode Title="IHost.ProgramPath property" Url="html/0b55d63e-a136-6ac6-6475-698e29768d3d.htm" />
+  <HelpKINode Title="IHost.QueueCount property" Url="html/4645ceb9-867a-c460-a95e-90e261cf97bd.htm" />
+  <HelpKINode Title="IHost.RefreshEvents property" Url="html/e6ce5596-d3ad-f746-6a90-e68395a12b6d.htm" />
+  <HelpKINode Title="IHost.ReloadZones property" Url="html/bf3d418f-7fa5-ba50-58a9-202f1bda2abd.htm" />
+  <HelpKINode Title="IHost.RemainingTime property" Url="html/db5d54e3-192f-fc3a-8bb9-becfbad1a10d.htm" />
+  <HelpKINode Title="IHost.RepeatArtistInterval property" Url="html/e12d6e8c-d242-aa17-f2ed-0b0ce5df8494.htm" />
+  <HelpKINode Title="IHost.RepeatTrackInterval property" Url="html/6049c590-1b52-dcc8-25e6-b6b6c93ab8ff.htm" />
+  <HelpKINode Title="IHost.RestartTrack property" Url="html/488252c1-48c0-7feb-cf25-234d74a46a73.htm" />
+  <HelpKINode Title="IHost.RunPluginAction method" Url="html/95278b3f-ce50-d2c2-a8d0-c3c6cdfc0697.htm" />
+  <HelpKINode Title="IHost.SavePlaylistDB method" Url="html/c702b5fd-c413-a2b2-7538-638aa623dcb9.htm" />
+  <HelpKINode Title="IHost.SavePlaylistM3U method" Url="html/bbe8fbb8-1f8d-7dda-8423-7507f094357f.htm" />
+  <HelpKINode Title="IHost.SaveSetting method" Url="html/7325cf2e-5e74-8e7d-a251-41d9d12c35af.htm" />
+  <HelpKINode Title="IHost.SearchResults property" Url="html/6db5e219-76f4-6926-f75d-e5b5ff67f735.htm" />
+  <HelpKINode Title="IHost.ShowCategoriesEditor method" Url="html/eaf46907-b91e-4283-6ec8-24adcc5bd51e.htm" />
+  <HelpKINode Title="IHost.ShowImportFolder method" Url="html/58f7d9c7-922f-202e-adc9-56b0947f02c7.htm" />
+  <HelpKINode Title="IHost.ShowTrackDetails method" Url="html/87d1bc5b-144f-3dba-fb1d-734e1a6af263.htm" />
+  <HelpKINode Title="IHost.ShowTrackEditor method" Url="html/eaba5077-be93-b85a-8930-ea95e2b4e0e8.htm" />
+  <HelpKINode Title="IHost.ShowTracksWindow method" Url="html/34adba6b-a281-c044-c3ac-5683cdf1d353.htm" />
+  <HelpKINode Title="IHost.StopPlaying property" Url="html/f8cf9b8a-7ac8-6672-b4e3-42061ebc4b11.htm" />
+  <HelpKINode Title="IHost.StopPlayingWithoutFade property" Url="html/d33f8ea9-b4f1-fb42-2328-f6181847232b.htm" />
+  <HelpKINode Title="IHost.SupportedFormats property" Url="html/2237bf79-dd0a-45cc-e13d-2cac5ac3e249.htm" />
+  <HelpKINode Title="IHost.SweepersSubcategory property" Url="html/301cea96-77ce-8173-7c7d-0a202300c247.htm" />
+  <HelpKINode Title="IHost.titleMain property" Url="html/f368cf0d-87d8-2d3f-1596-dc71003a138c.htm" />
+  <HelpKINode Title="IHost.UnmuteInput property" Url="html/933be700-fd41-084a-3e43-ac4db2e54a22.htm" />
+  <HelpKINode Title="IHost.UpdatePlaylist property" Url="html/7d7e7ec5-be80-cc8c-ef43-77142e4e41e0.htm" />
+  <HelpKINode Title="ImportFile method" Url="html/ef01508a-56d7-a14d-8fce-878f515eee92.htm" />
+  <HelpKINode Title="Initialize method" Url="html/8482403e-752f-317f-6fbb-96ce8f1c8c24.htm" />
+  <HelpKINode Title="InputStateChanged method" Url="html/06887795-87f0-db69-88a1-ae1618294275.htm" />
+  <HelpKINode Title="InternetStream enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="Intro enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="IPlugin interface">
+    <HelpKINode Title="IPlugin Interface" Url="html/02a743ea-ee2f-0c3e-f646-9f87510e725a.htm" />
+    <HelpKINode Title="about IPlugin interface" Url="html/02a743ea-ee2f-0c3e-f646-9f87510e725a.htm" />
+    <HelpKINode Title="methods" Url="html/54967197-d596-825a-c77e-bac95159ae17.htm" />
+    <HelpKINode Title="properties" Url="html/fa12c25f-d690-f66e-cb0f-a266fadfb32f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPlugin.AddTrack2Plugin method" Url="html/cdd4f29b-7772-7ddc-441c-346d3f76f480.htm" />
+  <HelpKINode Title="IPlugin.AssistedStateChanged method" Url="html/63b61840-e225-9efe-dd82-4d4b0ac3f7d9.htm" />
+  <HelpKINode Title="IPlugin.AutoDJStateChanged method" Url="html/7d6d457a-4d53-8ce8-5597-d8ea5ffd4f77.htm" />
+  <HelpKINode Title="IPlugin.AvailableActions method" Url="html/fc5c5751-f7e5-4194-91c4-ffcfc2e160d2.htm" />
+  <HelpKINode Title="IPlugin.HasActions property" Url="html/87cc69f7-697c-9ded-9713-44d8f112b63f.htm" />
+  <HelpKINode Title="IPlugin.Initialize method" Url="html/8482403e-752f-317f-6fbb-96ce8f1c8c24.htm" />
+  <HelpKINode Title="IPlugin.InputStateChanged method" Url="html/06887795-87f0-db69-88a1-ae1618294275.htm" />
+  <HelpKINode Title="IPlugin.KeyDown method" Url="html/a2f9ed4d-a901-c7c6-81a4-bd31d3db6d78.htm" />
+  <HelpKINode Title="IPlugin.LoadGUI method" Url="html/7ca5676e-d3a1-4f56-44ed-6f1707f8545c.htm" />
+  <HelpKINode Title="IPlugin.NotifyOnPlaylistChange property" Url="html/fbe00381-8906-7834-21a3-2cc40000e1f1.htm" />
+  <HelpKINode Title="IPlugin.NotifyOnTrackChange property" Url="html/b3cd6377-48d7-eca9-e9f7-722f8b3cc5c5.htm" />
+  <HelpKINode Title="IPlugin.NotifyOnUIChange property" Url="html/aa1c7d57-9e47-6b7d-0b63-3065d2450a86.htm" />
+  <HelpKINode Title="IPlugin.PlaylistChanged method" Url="html/287a356e-7608-fdf0-a246-3d8fa7147209.htm" />
+  <HelpKINode Title="IPlugin.PluginDescription property" Url="html/7083f754-4ec5-eda3-ebcb-724b9810f11d.htm" />
+  <HelpKINode Title="IPlugin.PluginName property" Url="html/4b4e4dab-f619-5ae2-58e9-84fa87a6d984.htm" />
+  <HelpKINode Title="IPlugin.PluginTitle property" Url="html/7f0f712f-6a57-3365-f082-37ba64609e86.htm" />
+  <HelpKINode Title="IPlugin.PluginVersion property" Url="html/cefc2eb3-a4ee-ba39-7ca6-a803c259c567.htm" />
+  <HelpKINode Title="IPlugin.PluginZone property" Url="html/2c4476b4-d091-077d-e7f7-c1473baf93ec.htm" />
+  <HelpKINode Title="IPlugin.ReloadCategories method" Url="html/31a50d04-0972-3d16-1619-8189c3df62fd.htm" />
+  <HelpKINode Title="IPlugin.ReloadLanguage method" Url="html/93b8fbe1-7ea5-c092-01e6-812781b313e9.htm" />
+  <HelpKINode Title="IPlugin.RunAction method" Url="html/d46c3cb7-99e7-6e40-d266-f2baa6812098.htm" />
+  <HelpKINode Title="IPlugin.ShowAbout method" Url="html/afd4c952-2f62-3ac9-2ab4-732961d36a8c.htm" />
+  <HelpKINode Title="IPlugin.ShowConfig method" Url="html/1116aa94-42a0-d16d-7be0-970e07bd0dc2.htm" />
+  <HelpKINode Title="IPlugin.ShowMain method" Url="html/1cfb8680-b998-cabf-e713-5617a153ecf0.htm" />
+  <HelpKINode Title="IPlugin.TrackChanged method" Url="html/1d2c614a-260a-79f3-a7fb-d2fac94d8ba4.htm" />
+  <HelpKINode Title="isOverlay property" Url="html/154c1878-718a-9151-b63a-1802f7a49e0a.htm" />
+  <HelpKINode Title="IsPaused property" Url="html/ecb87133-1d92-c594-53cc-d46264d7d2ba.htm" />
+  <HelpKINode Title="IsPlaying property" Url="html/2f396f41-a470-68b6-6b72-1c7be8588a94.htm" />
+  <HelpKINode Title="isPodcast property" Url="html/0605dca8-3719-8e79-7f4d-34fecea4ef0a.htm" />
+  <HelpKINode Title="Isrc enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Isrc property" Url="html/9bc80918-e15c-a2ce-becd-3ccf14cf6e73.htm" />
+  <HelpKINode Title="Jingle enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="KeyDown method" Url="html/a2f9ed4d-a901-c7c6-81a4-bd31d3db6d78.htm" />
+  <HelpKINode Title="Lang method" Url="html/b40ee44c-41bd-019f-9462-4315e524252c.htm" />
+  <HelpKINode Title="LimitAction property" Url="html/f52043b0-2340-72cd-2138-42497d3b4e3b.htm" />
+  <HelpKINode Title="Listeners property" Url="html/8f812e76-81c6-5a51-0230-eb46617b5fd1.htm" />
+  <HelpKINode Title="LoadGUI method" Url="html/7ca5676e-d3a1-4f56-44ed-6f1707f8545c.htm" />
+  <HelpKINode Title="LoadSweeper2Track method" Url="html/eaaa5b86-0c49-2d4d-51f4-115b1673f5f4.htm" />
+  <HelpKINode Title="LoadTrackInfo method" Url="html/900f9141-0f2a-9d8f-37dd-4912250dc906.htm" />
+  <HelpKINode Title="LoadVoicetrack2Track method" Url="html/d9ebeed5-d7a0-615a-c962-a3aeec31c850.htm" />
+  <HelpKINode Title="LogMe method" Url="html/8d8698ac-bd64-92c0-a857-00619d8015b5.htm" />
+  <HelpKINode Title="LoopMode property" Url="html/73bdf737-90ed-9308-81a2-aff5f9f99b54.htm" />
+  <HelpKINode Title="Main enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="MainAssisted property" Url="html/aa615741-900c-b493-b09d-b728311aea2f.htm" />
+  <HelpKINode Title="MainAutoDJ property" Url="html/3ee74b7d-3ad2-618c-2fe6-0c706485adc0.htm" />
+  <HelpKINode Title="MainMixerHandle property" Url="html/2147c117-0958-541f-66a1-8ef3eb74c7d6.htm" />
+  <HelpKINode Title="MainMute property" Url="html/1bc63e22-3598-5f21-e298-53a17182d36d.htm" />
+  <HelpKINode Title="MainPause enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="MainPlay enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="MainPlaylist property" Url="html/17fcb22a-7eab-9c24-2c9b-5ca320ce9fc9.htm" />
+  <HelpKINode Title="MainStop enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="MainStopWithFade enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="MainTrackVolume enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="MainTrackVolume property" Url="html/f00ebabf-40fd-45fb-0013-108f70b89286.htm" />
+  <HelpKINode Title="MainVolume enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="MainVolume property" Url="html/374179d2-cb2c-cc71-4243-20ba9e41fcc4.htm" />
+  <HelpKINode Title="MakeEnvelope method" Url="html/5894c84b-d531-f984-e914-7354e78af633.htm" />
+  <HelpKINode Title="Monitor enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="Music enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="Mute enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="MysqlInsert method" Url="html/76937437-cf0b-18b2-5121-9204d658bea0.htm" />
+  <HelpKINode Title="MysqlQuery method" Url="html/b4e7bd55-4fa6-0e1e-ee7d-3746968d2965.htm" />
+  <HelpKINode Title="NewestFromFolder enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="News enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="NotifyOnPlaylistChange property" Url="html/fbe00381-8906-7834-21a3-2cc40000e1f1.htm" />
+  <HelpKINode Title="NotifyOnTrackChange property" Url="html/b3cd6377-48d7-eca9-e9f7-722f8b3cc5c5.htm" />
+  <HelpKINode Title="NotifyOnUIChange property" Url="html/aa1c7d57-9e47-6b7d-0b63-3065d2450a86.htm" />
+  <HelpKINode Title="NowPlayingHandle property" Url="html/7db28c5c-1166-fbfe-4634-a575a97a172d.htm" />
+  <HelpKINode Title="OpenPlaylist method" Url="html/e5112bb5-cf16-b95d-d2a3-325605556bfb.htm" />
+  <HelpKINode Title="OriginalArtist enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="OriginalArtist property" Url="html/27cfac00-7fb7-0c67-ce6e-1e2e3ac21492.htm" />
+  <HelpKINode Title="Other enumeration member">
+    <HelpKINode Title="PluginActionTypes Enumeration" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+    <HelpKINode Title="TrackTypes Enumeration" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Path enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Path property" Url="html/b4ab5974-665e-db1b-8756-e0af207b626f.htm" />
+  <HelpKINode Title="Pause property" Url="html/fa28af0e-d107-d560-a885-66f5d8037cb7.htm" />
+  <HelpKINode Title="PauseEvents property" Url="html/19ddbd06-5a30-16a3-9f9f-e091f674310d.htm" />
+  <HelpKINode Title="PauseItem enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="PlayCartByNumber method" Url="html/19abb619-df75-2f57-18cd-ddb232b0b94d.htm" />
+  <HelpKINode Title="PlayerGroup property" Url="html/5ae3f458-7af4-5850-18f0-16a53eba74b9.htm" />
+  <HelpKINode Title="PlayerID property" Url="html/79e86ebd-30ba-a74b-d708-0f4903cfd715.htm" />
+  <HelpKINode Title="PlayFromIntro enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="PlayFromIntro property" Url="html/d480e976-8155-8071-0a36-c1f43230efda.htm" />
+  <HelpKINode Title="PlayFromLoop enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="PlayFromLoop property" Url="html/35635fce-631d-2b18-e8bc-f7799057f910.htm" />
+  <HelpKINode Title="PlayFromOutro enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="PlayFromOutro property" Url="html/150f73b8-ac2b-601d-f7e0-b86063750876.htm" />
+  <HelpKINode Title="PlayItem enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="PlayLimit property" Url="html/d54f6a05-e2b0-b82d-94e9-fe5bc42c74bc.htm" />
+  <HelpKINode Title="Playlist2FullScreen property" Url="html/f469a24a-318b-31c9-5e2f-52098fe94c2d.htm" />
+  <HelpKINode Title="PlaylistChanged method" Url="html/287a356e-7608-fdf0-a246-3d8fa7147209.htm" />
+  <HelpKINode Title="PlaylistEvent enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="PlayOnMainMixer property" Url="html/e00dde42-2839-0c0b-f2cd-f627e4c5491e.htm" />
+  <HelpKINode Title="PlayPlaylistTrack method" Url="html/693e6ed7-6dfb-e9a3-fa0e-2664917fe811.htm" />
+  <HelpKINode Title="PluginActionTypes enumeration" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="PluginDescription property" Url="html/7083f754-4ec5-eda3-ebcb-724b9810f11d.htm" />
+  <HelpKINode Title="PluginName field" Url="html/a2e76922-5dd8-7c2d-8500-e3c1113f2557.htm" />
+  <HelpKINode Title="PluginName property" Url="html/4b4e4dab-f619-5ae2-58e9-84fa87a6d984.htm" />
+  <HelpKINode Title="PluginTitle property" Url="html/7f0f712f-6a57-3365-f082-37ba64609e86.htm" />
+  <HelpKINode Title="PluginVersion property" Url="html/cefc2eb3-a4ee-ba39-7ca6-a803c259c567.htm" />
+  <HelpKINode Title="PluginZone property" Url="html/2c4476b4-d091-077d-e7f7-c1473baf93ec.htm" />
+  <HelpKINode Title="Podcast enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="PopulateCatList method" Url="html/ed2750a3-a406-a430-744e-c1c15076a1ec.htm" />
+  <HelpKINode Title="PopulateGenreList method" Url="html/3b0531b5-a5c8-ed35-569a-1e49814abfd6.htm" />
+  <HelpKINode Title="PopulateSubCatList method" Url="html/49c5640e-993b-c9d3-76ec-905ccc3c3838.htm" />
+  <HelpKINode Title="PopulateTrackTypeList method" Url="html/f07915e1-e002-da80-2fbe-970bbcfe7e3b.htm" />
+  <HelpKINode Title="Position property" Url="html/bd87ba43-2424-7772-bfa5-d477d837a67a.htm" />
+  <HelpKINode Title="ProgramAuthor property" Url="html/2473ead6-64ef-9151-b78d-48a9d0845f5b.htm" />
+  <HelpKINode Title="ProgramName property" Url="html/f2d67d8c-c94e-cbb0-8ba4-57ce967542fe.htm" />
+  <HelpKINode Title="ProgramPath property" Url="html/0b55d63e-a136-6ac6-6475-698e29768d3d.htm" />
+  <HelpKINode Title="Publisher enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Publisher property" Url="html/3fcefcd6-b7b6-70f0-f494-307ea793f372.htm" />
+  <HelpKINode Title="QueryFix method" Url="html/d9c6a3a0-2719-c673-fc0a-16ee36701dfc.htm" />
+  <HelpKINode Title="QueueCount property" Url="html/4645ceb9-867a-c460-a95e-90e261cf97bd.htm" />
+  <HelpKINode Title="rdjInterface namespace" Url="html/2b37a295-325c-a940-29f0-51457ec28959.htm" />
+  <HelpKINode Title="rdjInterface.ButtonActions enumeration" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="rdjInterface.EventAction class" Url="html/90b10dbb-a9cb-4283-3152-e44012707822.htm" />
+  <HelpKINode Title="rdjInterface.IHost interface" Url="html/d4f5b4ec-12bb-03e4-cb28-fbab3253105d.htm" />
+  <HelpKINode Title="rdjInterface.IPlugin interface" Url="html/02a743ea-ee2f-0c3e-f646-9f87510e725a.htm" />
+  <HelpKINode Title="rdjInterface.PluginActionTypes enumeration" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="rdjInterface.SongData class" Url="html/9812f1d2-7d0a-9a58-a5db-25f090b19a9e.htm" />
+  <HelpKINode Title="rdjInterface.SoundCards enumeration" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="rdjInterface.TableData class" Url="html/3ced4e5e-1268-f14e-ccd6-1b6b40708561.htm" />
+  <HelpKINode Title="rdjInterface.TrackFields enumeration" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="rdjInterface.TrackTypes enumeration" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="rdjInterface.Utils class" Url="html/c54b3a10-420e-92a3-f4cf-d833fae144ad.htm" />
+  <HelpKINode Title="RefreshEvents property" Url="html/e6ce5596-d3ad-f746-6a90-e68395a12b6d.htm" />
+  <HelpKINode Title="ReloadCategories method" Url="html/31a50d04-0972-3d16-1619-8189c3df62fd.htm" />
+  <HelpKINode Title="ReloadLanguage method" Url="html/93b8fbe1-7ea5-c092-01e6-812781b313e9.htm" />
+  <HelpKINode Title="ReloadZones property" Url="html/bf3d418f-7fa5-ba50-58a9-202f1bda2abd.htm" />
+  <HelpKINode Title="Remaining property" Url="html/49638c23-f91e-839a-8433-669502c32794.htm" />
+  <HelpKINode Title="RemainingTime property" Url="html/db5d54e3-192f-fc3a-8bb9-becfbad1a10d.htm" />
+  <HelpKINode Title="RepeatArtistInterval property" Url="html/e12d6e8c-d242-aa17-f2ed-0b0ce5df8494.htm" />
+  <HelpKINode Title="RepeatTrackInterval property" Url="html/6049c590-1b52-dcc8-25e6-b6b6c93ab8ff.htm" />
+  <HelpKINode Title="Request enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="RequestMessage property" Url="html/ab9ddf79-27a7-494e-b9a8-d6b357f923b1.htm" />
+  <HelpKINode Title="RequestUser property" Url="html/f581403f-44ef-88a7-7524-3a7efc65155d.htm" />
+  <HelpKINode Title="Restart enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="RestartTrack property" Url="html/488252c1-48c0-7feb-cf25-234d74a46a73.htm" />
+  <HelpKINode Title="RunAction method" Url="html/d46c3cb7-99e7-6e40-d266-f2baa6812098.htm" />
+  <HelpKINode Title="RunPluginAction method" Url="html/95278b3f-ce50-d2c2-a8d0-c3c6cdfc0697.htm" />
+  <HelpKINode Title="SavePlaylistDB method" Url="html/c702b5fd-c413-a2b2-7538-638aa623dcb9.htm" />
+  <HelpKINode Title="SavePlaylistM3U method" Url="html/bbe8fbb8-1f8d-7dda-8423-7507f094357f.htm" />
+  <HelpKINode Title="SaveSetting method" Url="html/7325cf2e-5e74-8e7d-a251-41d9d12c35af.htm" />
+  <HelpKINode Title="SearchResults property" Url="html/6db5e219-76f4-6926-f75d-e5b5ff67f735.htm" />
+  <HelpKINode Title="SelectCartSet enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="SelectCategoryTrack enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="SelectDirectory enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="SelectFilePath enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="SelectPlaylist enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="SelectRotation enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="SelectTrackID enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="SetVolumeEnvelopes property" Url="html/114d1a96-bafd-1250-40c3-441b1704ebdd.htm" />
+  <HelpKINode Title="ShowAbout method" Url="html/afd4c952-2f62-3ac9-2ab4-732961d36a8c.htm" />
+  <HelpKINode Title="ShowCategoriesEditor method" Url="html/eaf46907-b91e-4283-6ec8-24adcc5bd51e.htm" />
+  <HelpKINode Title="ShowConfig method" Url="html/1116aa94-42a0-d16d-7be0-970e07bd0dc2.htm" />
+  <HelpKINode Title="ShowImportFolder method" Url="html/58f7d9c7-922f-202e-adc9-56b0947f02c7.htm" />
+  <HelpKINode Title="ShowMain method" Url="html/1cfb8680-b998-cabf-e713-5617a153ecf0.htm" />
+  <HelpKINode Title="ShowTrackDetails method" Url="html/87d1bc5b-144f-3dba-fb1d-734e1a6af263.htm" />
+  <HelpKINode Title="ShowTrackEditor method" Url="html/eaba5077-be93-b85a-8930-ea95e2b4e0e8.htm" />
+  <HelpKINode Title="ShowTracksWindow method" Url="html/34adba6b-a281-c044-c3ac-5683cdf1d353.htm" />
+  <HelpKINode Title="SongData class">
+    <HelpKINode Title="SongData Class" Url="html/9812f1d2-7d0a-9a58-a5db-25f090b19a9e.htm" />
+    <HelpKINode Title="about SongData class" Url="html/9812f1d2-7d0a-9a58-a5db-25f090b19a9e.htm" />
+    <HelpKINode Title="constructor" Url="html/bf668aa1-0f13-49eb-f8cf-dae68aeea50e.htm" />
+    <HelpKINode Title="methods" Url="html/cf985213-a304-a060-63ca-2ebd441b1e62.htm" />
+    <HelpKINode Title="properties" Url="html/d1d6aac9-017e-96a4-74fe-aac5eaf3a6af.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SongData.Album property" Url="html/85d490df-f2d2-622b-5e2a-86afef6b934d.htm" />
+  <HelpKINode Title="SongData.AlbumArt property" Url="html/4a9bf2b5-699a-823d-ffc3-019beae97f20.htm" />
+  <HelpKINode Title="SongData.Artist property" Url="html/731347be-c1df-db9a-ebdf-1a5cd27bd0cb.htm" />
+  <HelpKINode Title="SongData.ArtistPlayed property" Url="html/940963f2-1af5-120a-dd20-291f794f9d22.htm" />
+  <HelpKINode Title="SongData.AutoFree property" Url="html/d95be581-81eb-e065-b4ac-ee48044ed5dc.htm" />
+  <HelpKINode Title="SongData.bCueDuration property" Url="html/7fef1dc1-7122-464c-ae3a-f45c3c18a040.htm" />
+  <HelpKINode Title="SongData.bCueEnd property" Url="html/e30ab915-4e84-a971-3e6c-3eea00e38bf7.htm" />
+  <HelpKINode Title="SongData.bCueIntro property" Url="html/f5c6d433-5e03-7f57-bf13-871721eb1469.htm" />
+  <HelpKINode Title="SongData.bCueLoopIn property" Url="html/471699a6-0dc4-b55b-4797-c3e2be2cd55b.htm" />
+  <HelpKINode Title="SongData.bCueLoopOut property" Url="html/74593410-cb3a-3ac3-e1fc-bc8828beb1a8.htm" />
+  <HelpKINode Title="SongData.bCueNext property" Url="html/662e3fcb-ec69-ec01-b710-61a924448afb.htm" />
+  <HelpKINode Title="SongData.bCueOutro property" Url="html/86a69098-4bfd-4b09-80ac-a830a2f50c00.htm" />
+  <HelpKINode Title="SongData.bCueStart property" Url="html/11371bbb-6c78-3358-e44c-e3f335bc4ced.htm" />
+  <HelpKINode Title="SongData.BPM property" Url="html/04e38479-5df2-86bb-de8c-7da508eabc7e.htm" />
+  <HelpKINode Title="SongData.bPosition property" Url="html/d7866044-3406-a226-234b-f7a3d6b7f7bf.htm" />
+  <HelpKINode Title="SongData.BuyLink property" Url="html/de31300a-b50b-7178-df15-13f1ffc220aa.htm" />
+  <HelpKINode Title="SongData.Comments property" Url="html/e38f7dd0-7ea4-b7b5-2492-4b616e0de1bb.htm" />
+  <HelpKINode Title="SongData.Composer property" Url="html/f1d170ed-dc9f-75d3-f991-d0bc9ef0962c.htm" />
+  <HelpKINode Title="SongData.Copyright property" Url="html/aa273e32-3c53-ee7a-5d5a-80bd506fad47.htm" />
+  <HelpKINode Title="SongData.CountPlayed property" Url="html/2802fea4-3ad0-16ee-5b68-f63589f8c9c7.htm" />
+  <HelpKINode Title="SongData.cueEnd property" Url="html/319b0a9e-207f-222c-0e73-b3d6ca6eeb2b.htm" />
+  <HelpKINode Title="SongData.cueIntro property" Url="html/dec6f251-bea4-1bae-e4f1-6bdd41f31a2a.htm" />
+  <HelpKINode Title="SongData.cueLoopIn property" Url="html/da91197c-adb7-e473-be0e-f7ee4f3d7569.htm" />
+  <HelpKINode Title="SongData.cueLoopOut property" Url="html/edb0f8de-9c8a-18f1-9677-3412abda9a1f.htm" />
+  <HelpKINode Title="SongData.cueNext property" Url="html/ad7a74ba-78f7-e7b7-ca87-3c369dfa39ac.htm" />
+  <HelpKINode Title="SongData.cueOutro property" Url="html/74cafb94-fe05-c89a-5dad-c046dd60c896.htm" />
+  <HelpKINode Title="SongData.cueStart property" Url="html/80293b50-afde-d7c8-3147-895490cc695a.htm" />
+  <HelpKINode Title="SongData.CueTimes property" Url="html/d1b76594-26a6-27f8-2ece-0f9fb0888f06.htm" />
+  <HelpKINode Title="SongData.DatePlayed property" Url="html/eb471240-9f5f-e73c-2299-382bef04feb6.htm" />
+  <HelpKINode Title="SongData.DateRequested property" Url="html/3cfe0757-5a83-baa6-58fa-33a94b7027fc.htm" />
+  <HelpKINode Title="SongData.DiscNo property" Url="html/3ef69977-d694-3d12-178e-0edd1f635b29.htm" />
+  <HelpKINode Title="SongData.Duration property" Url="html/4fbdd1be-3680-f880-107c-5c077eb66a92.htm" />
+  <HelpKINode Title="SongData.Elapsed property" Url="html/173107f3-0bc1-ee36-bed8-9115ecefa8ee.htm" />
+  <HelpKINode Title="SongData.Enabled property" Url="html/73d83355-6efc-4eec-4079-6f64750512de.htm" />
+  <HelpKINode Title="SongData.EndDate property" Url="html/f29f9f98-2456-a841-f036-41be7a8dadc9.htm" />
+  <HelpKINode Title="SongData.FadeIn property" Url="html/3c866e94-acc4-1360-516a-6220dfdb0575.htm" />
+  <HelpKINode Title="SongData.FadeOut property" Url="html/7f2b8371-82f4-2f29-ed01-cdcabf7cb121.htm" />
+  <HelpKINode Title="SongData.FadeType property" Url="html/44b06596-ab26-8ed0-0777-c4c8e52a42b8.htm" />
+  <HelpKINode Title="SongData.FreePlayer method" Url="html/a3b08314-0751-b3c3-2819-dde10f61b330.htm" />
+  <HelpKINode Title="SongData.HighPrecision property" Url="html/fcc5c313-9f84-c309-5193-9690e07475e8.htm" />
+  <HelpKINode Title="SongData.ID property" Url="html/c464d714-da7e-83de-14c2-db3c7dc440db.htm" />
+  <HelpKINode Title="SongData.IDGenre property" Url="html/4a38c73e-a44c-3b45-0b27-ae6ac2957f20.htm" />
+  <HelpKINode Title="SongData.IDSubcat property" Url="html/4cf0cc31-8ba6-c12d-f749-ada8a9ceccc2.htm" />
+  <HelpKINode Title="SongData.isOverlay property" Url="html/154c1878-718a-9151-b63a-1802f7a49e0a.htm" />
+  <HelpKINode Title="SongData.IsPaused property" Url="html/ecb87133-1d92-c594-53cc-d46264d7d2ba.htm" />
+  <HelpKINode Title="SongData.IsPlaying property" Url="html/2f396f41-a470-68b6-6b72-1c7be8588a94.htm" />
+  <HelpKINode Title="SongData.isPodcast property" Url="html/0605dca8-3719-8e79-7f4d-34fecea4ef0a.htm" />
+  <HelpKINode Title="SongData.Isrc property" Url="html/9bc80918-e15c-a2ce-becd-3ccf14cf6e73.htm" />
+  <HelpKINode Title="SongData.LimitAction property" Url="html/f52043b0-2340-72cd-2138-42497d3b4e3b.htm" />
+  <HelpKINode Title="SongData.LoopMode property" Url="html/73bdf737-90ed-9308-81a2-aff5f9f99b54.htm" />
+  <HelpKINode Title="SongData.OriginalArtist property" Url="html/27cfac00-7fb7-0c67-ce6e-1e2e3ac21492.htm" />
+  <HelpKINode Title="SongData.Path property" Url="html/b4ab5974-665e-db1b-8756-e0af207b626f.htm" />
+  <HelpKINode Title="SongData.PlayerGroup property" Url="html/5ae3f458-7af4-5850-18f0-16a53eba74b9.htm" />
+  <HelpKINode Title="SongData.PlayerID property" Url="html/79e86ebd-30ba-a74b-d708-0f4903cfd715.htm" />
+  <HelpKINode Title="SongData.PlayLimit property" Url="html/d54f6a05-e2b0-b82d-94e9-fe5bc42c74bc.htm" />
+  <HelpKINode Title="SongData.PlayOnMainMixer property" Url="html/e00dde42-2839-0c0b-f2cd-f627e4c5491e.htm" />
+  <HelpKINode Title="SongData.Position property" Url="html/bd87ba43-2424-7772-bfa5-d477d837a67a.htm" />
+  <HelpKINode Title="SongData.Publisher property" Url="html/3fcefcd6-b7b6-70f0-f494-307ea793f372.htm" />
+  <HelpKINode Title="SongData.Remaining property" Url="html/49638c23-f91e-839a-8433-669502c32794.htm" />
+  <HelpKINode Title="SongData.RequestMessage property" Url="html/ab9ddf79-27a7-494e-b9a8-d6b357f923b1.htm" />
+  <HelpKINode Title="SongData.RequestUser property" Url="html/f581403f-44ef-88a7-7524-3a7efc65155d.htm" />
+  <HelpKINode Title="SongData.SetVolumeEnvelopes property" Url="html/114d1a96-bafd-1250-40c3-441b1704ebdd.htm" />
+  <HelpKINode Title="SongData.SongData constructor" Url="html/bf668aa1-0f13-49eb-f8cf-dae68aeea50e.htm" />
+  <HelpKINode Title="SongData.SongType property" Url="html/70617097-decd-4194-1c80-1ce0af9ab816.htm" />
+  <HelpKINode Title="SongData.StartDate property" Url="html/cdac3ca9-daf2-b23a-c553-0bd469117f32.htm" />
+  <HelpKINode Title="SongData.Sweepers property" Url="html/c6ab85fc-965e-a2cd-612e-a677e663e9ed.htm" />
+  <HelpKINode Title="SongData.swFirst property" Url="html/cc3717fb-1bb1-60c2-bbc3-a3de60950911.htm" />
+  <HelpKINode Title="SongData.swID property" Url="html/bd7c46ea-5e0e-3152-11ea-5c502778b760.htm" />
+  <HelpKINode Title="SongData.swName property" Url="html/52e96421-d484-af89-5446-e08ea42381c6.htm" />
+  <HelpKINode Title="SongData.swPlay property" Url="html/27ff6ae9-b465-a665-038b-f56492aca7d1.htm" />
+  <HelpKINode Title="SongData.SYNCEnd property" Url="html/89d9cfce-dc41-5536-ced0-7ce77ca96668.htm" />
+  <HelpKINode Title="SongData.SYNCFree property" Url="html/3b1f4525-dcf7-6dd6-a829-4e1339dd4286.htm" />
+  <HelpKINode Title="SongData.SyncFreeID property" Url="html/6a714c33-dd25-bb1a-26f2-6452713b6b4d.htm" />
+  <HelpKINode Title="SongData.Title property" Url="html/e81eb14d-e5d6-e17c-90bf-09b3d8529928.htm" />
+  <HelpKINode Title="SongData.ToString method" Url="html/16f8035f-2e2e-e173-b647-d6abfde38db1.htm" />
+  <HelpKINode Title="SongData.TrackNo property" Url="html/b77f599b-c5a9-36a5-4c98-d0f5f0d9e079.htm" />
+  <HelpKINode Title="SongData.vtID property" Url="html/2578aa60-bd20-c023-9900-81790778b044.htm" />
+  <HelpKINode Title="SongData.vtName property" Url="html/f4742caf-3f96-3919-45bd-dd2b97ba7d25.htm" />
+  <HelpKINode Title="SongData.vtPlay property" Url="html/fbdc7ee8-77d4-a5b3-6ff1-94b27dbfa85f.htm" />
+  <HelpKINode Title="SongData.Weight property" Url="html/9e3f626a-7ff2-bc12-893b-1d72a9705569.htm" />
+  <HelpKINode Title="SongData.WithLoop property" Url="html/ea80cbfd-7f8b-e9ab-20c1-9662753c3adb.htm" />
+  <HelpKINode Title="SongData.Year property" Url="html/f1b69fdf-ab95-8b3b-178b-a3161f0365f8.htm" />
+  <HelpKINode Title="SongType property" Url="html/70617097-decd-4194-1c80-1ce0af9ab816.htm" />
+  <HelpKINode Title="SoundCards enumeration" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="SplitSongCue method" Url="html/c07462f4-3c1a-93b7-71b5-d77bee08abec.htm" />
+  <HelpKINode Title="StartDate enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="StartDate property" Url="html/cdac3ca9-daf2-b23a-c553-0bd469117f32.htm" />
+  <HelpKINode Title="StopItem enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="StopPlaying property" Url="html/f8cf9b8a-7ac8-6672-b4e3-42061ebc4b11.htm" />
+  <HelpKINode Title="StopPlayingWithoutFade property" Url="html/d33f8ea9-b4f1-fb42-2328-f6181847232b.htm" />
+  <HelpKINode Title="String2Double method" Url="html/b9cb5add-a710-17d7-de9e-ea58e95a64c8.htm" />
+  <HelpKINode Title="SupportedFormats property" Url="html/2237bf79-dd0a-45cc-e13d-2cac5ac3e249.htm" />
+  <HelpKINode Title="Sweeper enumeration member">
+    <HelpKINode Title="SoundCards Enumeration" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+    <HelpKINode Title="TrackTypes Enumeration" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Sweepers property" Url="html/c6ab85fc-965e-a2cd-612e-a677e663e9ed.htm" />
+  <HelpKINode Title="SweepersSubcategory property" Url="html/301cea96-77ce-8173-7c7d-0a202300c247.htm" />
+  <HelpKINode Title="swFirst property" Url="html/cc3717fb-1bb1-60c2-bbc3-a3de60950911.htm" />
+  <HelpKINode Title="swID property" Url="html/bd7c46ea-5e0e-3152-11ea-5c502778b760.htm" />
+  <HelpKINode Title="swName property" Url="html/52e96421-d484-af89-5446-e08ea42381c6.htm" />
+  <HelpKINode Title="swPlay property" Url="html/27ff6ae9-b465-a665-038b-f56492aca7d1.htm" />
+  <HelpKINode Title="SYNCEnd property" Url="html/89d9cfce-dc41-5536-ced0-7ce77ca96668.htm" />
+  <HelpKINode Title="SYNCFree property" Url="html/3b1f4525-dcf7-6dd6-a829-4e1339dd4286.htm" />
+  <HelpKINode Title="SyncFreeID property" Url="html/6a714c33-dd25-bb1a-26f2-6452713b6b4d.htm" />
+  <HelpKINode Title="TableData class">
+    <HelpKINode Title="TableData Class" Url="html/3ced4e5e-1268-f14e-ccd6-1b6b40708561.htm" />
+    <HelpKINode Title="about TableData class" Url="html/3ced4e5e-1268-f14e-ccd6-1b6b40708561.htm" />
+    <HelpKINode Title="constructor" Url="html/39486404-8fed-eeae-3392-e8bb9e3aaa54.htm" />
+    <HelpKINode Title="fields" Url="html/ef012764-c7fc-5def-ce75-81a030894096.htm" />
+    <HelpKINode Title="methods" Url="html/434e57a0-8115-4935-4f7d-dcf2cc68ac10.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TableData.TableData constructor" Url="html/39486404-8fed-eeae-3392-e8bb9e3aaa54.htm" />
+  <HelpKINode Title="TableData.TableID field" Url="html/31067257-0536-e214-8175-cec5beae5daa.htm" />
+  <HelpKINode Title="TableData.TableName field" Url="html/ea1d2be2-4064-c4bb-a1f1-54357bdc67d3.htm" />
+  <HelpKINode Title="TableData.ToString method" Url="html/4d5dc682-f6a1-7d88-cb11-34fc3b72eef3.htm" />
+  <HelpKINode Title="TableID field" Url="html/31067257-0536-e214-8175-cec5beae5daa.htm" />
+  <HelpKINode Title="TableName field" Url="html/ea1d2be2-4064-c4bb-a1f1-54357bdc67d3.htm" />
+  <HelpKINode Title="Title enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Title property" Url="html/e81eb14d-e5d6-e17c-90bf-09b3d8529928.htm" />
+  <HelpKINode Title="titleMain property" Url="html/f368cf0d-87d8-2d3f-1596-dc71003a138c.htm" />
+  <HelpKINode Title="ToggleAssisted enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="ToggleAutoDJ enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="ToggleInput enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="TooglePauseEvents enumeration member" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="EventAction.ToString Method " Url="html/3ad29d96-0d8f-26ba-ebe9-84bfafa4dc34.htm" />
+    <HelpKINode Title="SongData.ToString Method " Url="html/16f8035f-2e2e-e173-b647-d6abfde38db1.htm" />
+    <HelpKINode Title="TableData.ToString Method " Url="html/4d5dc682-f6a1-7d88-cb11-34fc3b72eef3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrackChanged method" Url="html/1d2c614a-260a-79f3-a7fb-d2fac94d8ba4.htm" />
+  <HelpKINode Title="TrackFields enumeration" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="TrackNo enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="TrackNo property" Url="html/b77f599b-c5a9-36a5-4c98-d0f5f0d9e079.htm" />
+  <HelpKINode Title="TrackTypes enumeration" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="UnmuteInput property" Url="html/933be700-fd41-084a-3e43-ac4db2e54a22.htm" />
+  <HelpKINode Title="UpdatePlaylist property" Url="html/7d7e7ec5-be80-cc8c-ef43-77142e4e41e0.htm" />
+  <HelpKINode Title="Utils class">
+    <HelpKINode Title="Utils Class" Url="html/c54b3a10-420e-92a3-f4cf-d833fae144ad.htm" />
+    <HelpKINode Title="about Utils class" Url="html/c54b3a10-420e-92a3-f4cf-d833fae144ad.htm" />
+    <HelpKINode Title="constructor" Url="html/54f82114-27e2-b3c3-c0d6-0ad40918f297.htm" />
+    <HelpKINode Title="methods" Url="html/77e5c419-ed3d-c7ee-d9b7-315aeaa0008a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Utils.BuildFilename method" Url="html/1a4af707-140a-5079-eaf7-a718c9ae2167.htm" />
+  <HelpKINode Title="Utils.FileNameExtension method" Url="html/bcee9d99-4b28-514f-4089-5ea7d03288fe.htm" />
+  <HelpKINode Title="Utils.FileNameWithoutExtension method" Url="html/44d1bc4c-5c0c-43fa-b951-84e38afa534f.htm" />
+  <HelpKINode Title="Utils.GetDirName method" Url="html/b7bd5cf3-6de8-b3db-a3fe-c14db456626e.htm" />
+  <HelpKINode Title="Utils.GetFileByDate method" Url="html/1a6cd93b-dfff-5237-929d-90532146ff2b.htm" />
+  <HelpKINode Title="Utils.GetFileName method" Url="html/39ce808e-54b1-7084-250a-0f3de9932a8b.htm" />
+  <HelpKINode Title="Utils.GetFileSize method" Url="html/223787d3-57ce-91be-95f8-7460d8dba0fa.htm" />
+  <HelpKINode Title="Utils.GetFilesRecursive method" Url="html/d2c4de98-17a6-d177-4ba9-41d9af6345ff.htm" />
+  <HelpKINode Title="Utils.GetNewestFile method" Url="html/e339c668-8803-7d45-44d4-09051c2a0eb9.htm" />
+  <HelpKINode Title="Utils.GetPodcastFile method" Url="html/73b3c5fe-26ce-93f8-10d0-f3ce583a9cba.htm" />
+  <HelpKINode Title="Utils.QueryFix method" Url="html/d9c6a3a0-2719-c673-fc0a-16ee36701dfc.htm" />
+  <HelpKINode Title="Utils.SplitSongCue method" Url="html/c07462f4-3c1a-93b7-71b5-d77bee08abec.htm" />
+  <HelpKINode Title="Utils.String2Double method" Url="html/b9cb5add-a710-17d7-de9e-ea58e95a64c8.htm" />
+  <HelpKINode Title="Utils.Utils constructor" Url="html/54f82114-27e2-b3c3-c0d6-0ad40918f297.htm" />
+  <HelpKINode Title="VDF enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="Voiceover enumeration member" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+  <HelpKINode Title="VolumeSetting enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="VT enumeration member" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+  <HelpKINode Title="vtID property" Url="html/2578aa60-bd20-c023-9900-81790778b044.htm" />
+  <HelpKINode Title="vtName property" Url="html/f4742caf-3f96-3919-45bd-dd2b97ba7d25.htm" />
+  <HelpKINode Title="vtPlay property" Url="html/fbdc7ee8-77d4-a5b3-6ff1-94b27dbfa85f.htm" />
+  <HelpKINode Title="Weight enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Weight property" Url="html/9e3f626a-7ff2-bc12-893b-1d72a9705569.htm" />
+  <HelpKINode Title="WithLoop property" Url="html/ea80cbfd-7f8b-e9ab-20c1-9662753c3adb.htm" />
+  <HelpKINode Title="WithoutArguments enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="WithPlaylistPosition enumeration member" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+  <HelpKINode Title="Year enumeration member" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+  <HelpKINode Title="Year property" Url="html/f1b69fdf-ab95-8b3b-178b-a3161f0365f8.htm" />
+</HelpKI>

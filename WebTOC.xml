@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="63c572e9-1f12-4d82-bd8c-b91eb1d3cfa2" Title="rdjInterface" Url="html/2b37a295-325c-a940-29f0-51457ec28959.htm">
+    <HelpTOCNode Title="ButtonActions Enumeration" Url="html/c3c8ce95-a06c-bb0e-4400-988d0fdfdbcf.htm" />
+    <HelpTOCNode Id="05cd38ed-2dd0-4fc9-8e5d-6f323088b1c0" Title="EventAction Class" Url="html/90b10dbb-a9cb-4283-3152-e44012707822.htm">
+      <HelpTOCNode Title="EventAction Constructor " Url="html/97389062-8a3d-a89e-6a07-fa9e43b2357e.htm" />
+      <HelpTOCNode Id="f4f78ef4-b571-4f9f-ba88-cda5297bb6e7" Title="EventAction Methods" Url="html/62c93b3c-c94e-0b63-0a8a-83cfb1ad9495.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/3ad29d96-0d8f-26ba-ebe9-84bfafa4dc34.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0ea8ecde-d2cf-43b6-a548-88fcbefc7ba3" Title="EventAction Fields" Url="html/ce135baa-dd8b-6493-f1c5-4b9886a5cdfa.htm">
+        <HelpTOCNode Title="ActionName Field" Url="html/36466138-1e2c-84f5-2d41-56183984cc2d.htm" />
+        <HelpTOCNode Title="ActionType Field" Url="html/5471b788-c18f-1249-6015-fa133bd3ff0b.htm" />
+        <HelpTOCNode Title="Description Field" Url="html/1959956c-67de-41c4-c619-b6eb46e3872e.htm" />
+        <HelpTOCNode Title="PluginName Field" Url="html/a2e76922-5dd8-7c2d-8500-e3c1113f2557.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6546557-4f90-478b-bd7f-2ca10d2a0daa" Title="IHost Interface" Url="html/d4f5b4ec-12bb-03e4-cb28-fbab3253105d.htm">
+      <HelpTOCNode Id="1517d409-08c5-42c2-a27a-d29b2349121b" Title="IHost Properties" Url="html/514421cb-1b2d-dc33-4033-73794266a919.htm">
+        <HelpTOCNode Title="AddTrackWithSweeper Property " Url="html/53832c46-7a70-54b7-f511-b0edf77b6b30.htm" />
+        <HelpTOCNode Title="AlwaysOnTop Property " Url="html/9dd6c9ae-8a45-725c-a7f2-046233b0b102.htm" />
+        <HelpTOCNode Title="ArtworkEnabled Property " Url="html/e63899af-43f5-38eb-4776-eb5c1d5a0b78.htm" />
+        <HelpTOCNode Title="ArtworkPath Property " Url="html/efe12ff3-efad-7e48-c8fa-7af6af0d95e9.htm" />
+        <HelpTOCNode Title="ClearPlaylist Property " Url="html/8a69ea5d-72ea-8a81-3fe7-5b8ba275d728.htm" />
+        <HelpTOCNode Title="CurrentRotation Property " Url="html/3148f20d-3920-65d2-1046-d41e37d82d61.htm" />
+        <HelpTOCNode Title="CurrentRotationName Property " Url="html/4788dd40-0c42-677e-943d-86fe52afdb9d.htm" />
+        <HelpTOCNode Title="DefaultPriority Property " Url="html/d855ff0d-e954-b0e0-7941-545ae667c61d.htm" />
+        <HelpTOCNode Title="GetSoundCard Property " Url="html/a9acb10b-a0c4-9f43-6730-6e1b596edcd9.htm" />
+        <HelpTOCNode Title="GetTypeColor Property " Url="html/1e376b25-a42f-caf6-4118-732c371a7642.htm" />
+        <HelpTOCNode Title="GetTypeTitle Property " Url="html/84f67b21-4301-5d0d-2724-2145afff8304.htm" />
+        <HelpTOCNode Title="Listeners Property " Url="html/8f812e76-81c6-5a51-0230-eb46617b5fd1.htm" />
+        <HelpTOCNode Title="MainAssisted Property " Url="html/aa615741-900c-b493-b09d-b728311aea2f.htm" />
+        <HelpTOCNode Title="MainAutoDJ Property " Url="html/3ee74b7d-3ad2-618c-2fe6-0c706485adc0.htm" />
+        <HelpTOCNode Title="MainMixerHandle Property " Url="html/2147c117-0958-541f-66a1-8ef3eb74c7d6.htm" />
+        <HelpTOCNode Title="MainMute Property " Url="html/1bc63e22-3598-5f21-e298-53a17182d36d.htm" />
+        <HelpTOCNode Title="MainPlaylist Property " Url="html/17fcb22a-7eab-9c24-2c9b-5ca320ce9fc9.htm" />
+        <HelpTOCNode Title="MainTrackVolume Property " Url="html/f00ebabf-40fd-45fb-0013-108f70b89286.htm" />
+        <HelpTOCNode Title="MainVolume Property " Url="html/374179d2-cb2c-cc71-4243-20ba9e41fcc4.htm" />
+        <HelpTOCNode Title="NowPlayingHandle Property " Url="html/7db28c5c-1166-fbfe-4634-a575a97a172d.htm" />
+        <HelpTOCNode Title="Pause Property " Url="html/fa28af0e-d107-d560-a885-66f5d8037cb7.htm" />
+        <HelpTOCNode Title="PauseEvents Property " Url="html/19ddbd06-5a30-16a3-9f9f-e091f674310d.htm" />
+        <HelpTOCNode Title="PlayFromIntro Property " Url="html/d480e976-8155-8071-0a36-c1f43230efda.htm" />
+        <HelpTOCNode Title="PlayFromLoop Property " Url="html/35635fce-631d-2b18-e8bc-f7799057f910.htm" />
+        <HelpTOCNode Title="PlayFromOutro Property " Url="html/150f73b8-ac2b-601d-f7e0-b86063750876.htm" />
+        <HelpTOCNode Title="Playlist2FullScreen Property " Url="html/f469a24a-318b-31c9-5e2f-52098fe94c2d.htm" />
+        <HelpTOCNode Title="ProgramAuthor Property " Url="html/2473ead6-64ef-9151-b78d-48a9d0845f5b.htm" />
+        <HelpTOCNode Title="ProgramName Property " Url="html/f2d67d8c-c94e-cbb0-8ba4-57ce967542fe.htm" />
+        <HelpTOCNode Title="ProgramPath Property " Url="html/0b55d63e-a136-6ac6-6475-698e29768d3d.htm" />
+        <HelpTOCNode Title="QueueCount Property " Url="html/4645ceb9-867a-c460-a95e-90e261cf97bd.htm" />
+        <HelpTOCNode Title="RefreshEvents Property " Url="html/e6ce5596-d3ad-f746-6a90-e68395a12b6d.htm" />
+        <HelpTOCNode Title="ReloadZones Property " Url="html/bf3d418f-7fa5-ba50-58a9-202f1bda2abd.htm" />
+        <HelpTOCNode Title="RemainingTime Property " Url="html/db5d54e3-192f-fc3a-8bb9-becfbad1a10d.htm" />
+        <HelpTOCNode Title="RepeatArtistInterval Property " Url="html/e12d6e8c-d242-aa17-f2ed-0b0ce5df8494.htm" />
+        <HelpTOCNode Title="RepeatTrackInterval Property " Url="html/6049c590-1b52-dcc8-25e6-b6b6c93ab8ff.htm" />
+        <HelpTOCNode Title="RestartTrack Property " Url="html/488252c1-48c0-7feb-cf25-234d74a46a73.htm" />
+        <HelpTOCNode Title="SearchResults Property " Url="html/6db5e219-76f4-6926-f75d-e5b5ff67f735.htm" />
+        <HelpTOCNode Title="StopPlaying Property " Url="html/f8cf9b8a-7ac8-6672-b4e3-42061ebc4b11.htm" />
+        <HelpTOCNode Title="StopPlayingWithoutFade Property " Url="html/d33f8ea9-b4f1-fb42-2328-f6181847232b.htm" />
+        <HelpTOCNode Title="SupportedFormats Property " Url="html/2237bf79-dd0a-45cc-e13d-2cac5ac3e249.htm" />
+        <HelpTOCNode Title="SweepersSubcategory Property " Url="html/301cea96-77ce-8173-7c7d-0a202300c247.htm" />
+        <HelpTOCNode Title="titleMain Property " Url="html/f368cf0d-87d8-2d3f-1596-dc71003a138c.htm" />
+        <HelpTOCNode Title="UnmuteInput Property " Url="html/933be700-fd41-084a-3e43-ac4db2e54a22.htm" />
+        <HelpTOCNode Title="UpdatePlaylist Property " Url="html/7d7e7ec5-be80-cc8c-ef43-77142e4e41e0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="320c27f5-7246-4461-94af-2b975a5a04aa" Title="IHost Methods" Url="html/ea1919b6-d365-54d1-f149-5341499e0b41.htm">
+        <HelpTOCNode Id="79d9e8a4-31f0-45dd-b65d-50989ff2aa34" Title="Add2Playlist Method " Url="html/d6366ebf-b455-851f-61bb-7463071213df.htm">
+          <HelpTOCNode Title="Add2Playlist Method (Int32, Int32)" Url="html/1bd7986d-bfc4-c0c9-4c01-544f3b342b65.htm" />
+          <HelpTOCNode Title="Add2Playlist Method (SongData, Int32)" Url="html/783db991-1226-0821-7ec9-9b86244ca5cb.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="45612939-45cc-47da-a353-f92c0b2ec61e" Title="AddPlaylist Method " Url="html/04d26593-9494-c47f-247b-95b15531c052.htm">
+          <HelpTOCNode Title="AddPlaylist Method (Int32, Int32)" Url="html/50ecea5a-4a8d-19aa-7740-3dd2cd6019b5.htm" />
+          <HelpTOCNode Title="AddPlaylist Method (String, Int32)" Url="html/f98ee7d4-aada-10b6-afcb-6f64d64d9a2d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateTrackHandle Method " Url="html/c00fe103-c33c-b4fe-e6dc-e5dbd40b773a.htm" />
+        <HelpTOCNode Title="DeleteFromPlaylist Method " Url="html/c024effc-bf42-9648-111c-30c2ebae7974.htm" />
+        <HelpTOCNode Title="DeleteTrack Method " Url="html/66b008c4-b0f8-daea-c54a-669c0a02b8d1.htm" />
+        <HelpTOCNode Title="DisableTrack Method " Url="html/01ac79e3-dfdd-6e26-f9ba-4a862f0eee88.htm" />
+        <HelpTOCNode Title="EnableTrack Method " Url="html/83673b76-a640-dc94-7a5b-dea8dd1ee6ed.htm" />
+        <HelpTOCNode Title="FixThisTimespan Method " Url="html/35271976-b788-3a42-951d-b75aa01b804c.htm" />
+        <HelpTOCNode Title="GetPluginActions Method " Url="html/adad9594-bfb2-29c3-25bd-a9590f6b4083.htm" />
+        <HelpTOCNode Title="GetSetting Method " Url="html/5a977a2c-1ab3-c487-2f85-f4c21b799aec.htm" />
+        <HelpTOCNode Title="GetSongs Method " Url="html/657a0cdc-b092-ca7e-a756-d46f0a6b9fd9.htm" />
+        <HelpTOCNode Id="71e716d3-839c-4c61-b783-c2df6fdccb66" Title="ImportFile Method " Url="html/ef01508a-56d7-a14d-8fce-878f515eee92.htm">
+          <HelpTOCNode Title="ImportFile Method (SongData)" Url="html/5578a880-38d8-74bd-5ede-241d7f9ef766.htm" />
+          <HelpTOCNode Title="ImportFile Method (String, Boolean, Int32, Int32)" Url="html/2ff3c174-2f81-4aba-98a7-717c65f5c92c.htm" />
+          <HelpTOCNode Title="ImportFile Method (String[], Boolean, Int32, Int32)" Url="html/ca9575b7-df90-3e84-3ab0-cc4101afb725.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Lang Method " Url="html/b40ee44c-41bd-019f-9462-4315e524252c.htm" />
+        <HelpTOCNode Title="LoadSweeper2Track Method " Url="html/eaaa5b86-0c49-2d4d-51f4-115b1673f5f4.htm" />
+        <HelpTOCNode Id="c20f5835-8589-40bb-8165-d92b89f5acec" Title="LoadTrackInfo Method " Url="html/900f9141-0f2a-9d8f-37dd-4912250dc906.htm">
+          <HelpTOCNode Title="LoadTrackInfo Method (Int32)" Url="html/58a5408a-5e65-b256-20c9-7bf0c05efa2a.htm" />
+          <HelpTOCNode Title="LoadTrackInfo Method (SongData)" Url="html/b6a843f1-13bd-0269-75f3-884edb0ccb81.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LoadVoicetrack2Track Method " Url="html/d9ebeed5-d7a0-615a-c962-a3aeec31c850.htm" />
+        <HelpTOCNode Title="LogMe Method " Url="html/8d8698ac-bd64-92c0-a857-00619d8015b5.htm" />
+        <HelpTOCNode Title="MakeEnvelope Method " Url="html/5894c84b-d531-f984-e914-7354e78af633.htm" />
+        <HelpTOCNode Title="MysqlInsert Method " Url="html/76937437-cf0b-18b2-5121-9204d658bea0.htm" />
+        <HelpTOCNode Title="MysqlQuery Method " Url="html/b4e7bd55-4fa6-0e1e-ee7d-3746968d2965.htm" />
+        <HelpTOCNode Id="fb1b466c-8e8b-4214-ab3d-df7ffe8b8280" Title="OpenPlaylist Method " Url="html/e5112bb5-cf16-b95d-d2a3-325605556bfb.htm">
+          <HelpTOCNode Title="OpenPlaylist Method (Int32)" Url="html/b8e7a98e-a3a1-4ddd-1da4-046d7beaebf1.htm" />
+          <HelpTOCNode Title="OpenPlaylist Method (String)" Url="html/c636e65f-20f0-c7bf-4c5b-be29926ffb7b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PlayCartByNumber Method " Url="html/19abb619-df75-2f57-18cd-ddb232b0b94d.htm" />
+        <HelpTOCNode Title="PlayPlaylistTrack Method " Url="html/693e6ed7-6dfb-e9a3-fa0e-2664917fe811.htm" />
+        <HelpTOCNode Title="PopulateCatList Method " Url="html/ed2750a3-a406-a430-744e-c1c15076a1ec.htm" />
+        <HelpTOCNode Title="PopulateGenreList Method " Url="html/3b0531b5-a5c8-ed35-569a-1e49814abfd6.htm" />
+        <HelpTOCNode Title="PopulateSubCatList Method " Url="html/49c5640e-993b-c9d3-76ec-905ccc3c3838.htm" />
+        <HelpTOCNode Title="PopulateTrackTypeList Method " Url="html/f07915e1-e002-da80-2fbe-970bbcfe7e3b.htm" />
+        <HelpTOCNode Title="RunPluginAction Method " Url="html/95278b3f-ce50-d2c2-a8d0-c3c6cdfc0697.htm" />
+        <HelpTOCNode Title="SavePlaylistDB Method " Url="html/c702b5fd-c413-a2b2-7538-638aa623dcb9.htm" />
+        <HelpTOCNode Title="SavePlaylistM3U Method " Url="html/bbe8fbb8-1f8d-7dda-8423-7507f094357f.htm" />
+        <HelpTOCNode Title="SaveSetting Method " Url="html/7325cf2e-5e74-8e7d-a251-41d9d12c35af.htm" />
+        <HelpTOCNode Title="ShowCategoriesEditor Method " Url="html/eaf46907-b91e-4283-6ec8-24adcc5bd51e.htm" />
+        <HelpTOCNode Title="ShowImportFolder Method " Url="html/58f7d9c7-922f-202e-adc9-56b0947f02c7.htm" />
+        <HelpTOCNode Title="ShowTrackDetails Method " Url="html/87d1bc5b-144f-3dba-fb1d-734e1a6af263.htm" />
+        <HelpTOCNode Title="ShowTrackEditor Method " Url="html/eaba5077-be93-b85a-8930-ea95e2b4e0e8.htm" />
+        <HelpTOCNode Title="ShowTracksWindow Method " Url="html/34adba6b-a281-c044-c3ac-5683cdf1d353.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0aa8ea21-19e2-4fc8-82b6-f7ae328082c4" Title="IPlugin Interface" Url="html/02a743ea-ee2f-0c3e-f646-9f87510e725a.htm">
+      <HelpTOCNode Id="92691451-ecbd-4c1d-b15a-d62c9488d460" Title="IPlugin Properties" Url="html/fa12c25f-d690-f66e-cb0f-a266fadfb32f.htm">
+        <HelpTOCNode Title="HasActions Property " Url="html/87cc69f7-697c-9ded-9713-44d8f112b63f.htm" />
+        <HelpTOCNode Title="NotifyOnPlaylistChange Property " Url="html/fbe00381-8906-7834-21a3-2cc40000e1f1.htm" />
+        <HelpTOCNode Title="NotifyOnTrackChange Property " Url="html/b3cd6377-48d7-eca9-e9f7-722f8b3cc5c5.htm" />
+        <HelpTOCNode Title="NotifyOnUIChange Property " Url="html/aa1c7d57-9e47-6b7d-0b63-3065d2450a86.htm" />
+        <HelpTOCNode Title="PluginDescription Property " Url="html/7083f754-4ec5-eda3-ebcb-724b9810f11d.htm" />
+        <HelpTOCNode Title="PluginName Property " Url="html/4b4e4dab-f619-5ae2-58e9-84fa87a6d984.htm" />
+        <HelpTOCNode Title="PluginTitle Property " Url="html/7f0f712f-6a57-3365-f082-37ba64609e86.htm" />
+        <HelpTOCNode Title="PluginVersion Property " Url="html/cefc2eb3-a4ee-ba39-7ca6-a803c259c567.htm" />
+        <HelpTOCNode Title="PluginZone Property " Url="html/2c4476b4-d091-077d-e7f7-c1473baf93ec.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="60e55e5e-3eb6-4668-bad3-d4db4f79b83b" Title="IPlugin Methods" Url="html/54967197-d596-825a-c77e-bac95159ae17.htm">
+        <HelpTOCNode Id="4b688471-f565-4058-a4ea-23ecb31f323a" Title="AddTrack2Plugin Method " Url="html/cdd4f29b-7772-7ddc-441c-346d3f76f480.htm">
+          <HelpTOCNode Title="AddTrack2Plugin Method (Int32, Int64, Int32)" Url="html/1a74c4fd-aec0-6fb2-958c-a20ffa4ff1f3.htm" />
+          <HelpTOCNode Title="AddTrack2Plugin Method (SongData, Int64, Int32)" Url="html/4cd7a719-c273-5bd8-ee74-c4f940492629.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AssistedStateChanged Method " Url="html/63b61840-e225-9efe-dd82-4d4b0ac3f7d9.htm" />
+        <HelpTOCNode Title="AutoDJStateChanged Method " Url="html/7d6d457a-4d53-8ce8-5597-d8ea5ffd4f77.htm" />
+        <HelpTOCNode Title="AvailableActions Method " Url="html/fc5c5751-f7e5-4194-91c4-ffcfc2e160d2.htm" />
+        <HelpTOCNode Title="Initialize Method " Url="html/8482403e-752f-317f-6fbb-96ce8f1c8c24.htm" />
+        <HelpTOCNode Title="InputStateChanged Method " Url="html/06887795-87f0-db69-88a1-ae1618294275.htm" />
+        <HelpTOCNode Title="KeyDown Method " Url="html/a2f9ed4d-a901-c7c6-81a4-bd31d3db6d78.htm" />
+        <HelpTOCNode Title="LoadGUI Method " Url="html/7ca5676e-d3a1-4f56-44ed-6f1707f8545c.htm" />
+        <HelpTOCNode Title="PlaylistChanged Method " Url="html/287a356e-7608-fdf0-a246-3d8fa7147209.htm" />
+        <HelpTOCNode Title="ReloadCategories Method " Url="html/31a50d04-0972-3d16-1619-8189c3df62fd.htm" />
+        <HelpTOCNode Title="ReloadLanguage Method " Url="html/93b8fbe1-7ea5-c092-01e6-812781b313e9.htm" />
+        <HelpTOCNode Title="RunAction Method " Url="html/d46c3cb7-99e7-6e40-d266-f2baa6812098.htm" />
+        <HelpTOCNode Title="ShowAbout Method " Url="html/afd4c952-2f62-3ac9-2ab4-732961d36a8c.htm" />
+        <HelpTOCNode Title="ShowConfig Method " Url="html/1116aa94-42a0-d16d-7be0-970e07bd0dc2.htm" />
+        <HelpTOCNode Title="ShowMain Method " Url="html/1cfb8680-b998-cabf-e713-5617a153ecf0.htm" />
+        <HelpTOCNode Title="TrackChanged Method " Url="html/1d2c614a-260a-79f3-a7fb-d2fac94d8ba4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="PluginActionTypes Enumeration" Url="html/a96518e2-25a9-41f6-3538-97d1bacbedee.htm" />
+    <HelpTOCNode Id="68b60990-5b73-42dd-96b7-0ddd6462e0d8" Title="SongData Class" Url="html/9812f1d2-7d0a-9a58-a5db-25f090b19a9e.htm">
+      <HelpTOCNode Title="SongData Constructor " Url="html/bf668aa1-0f13-49eb-f8cf-dae68aeea50e.htm" />
+      <HelpTOCNode Id="79e051ce-0e57-4d25-aba1-18bc029e70dc" Title="SongData Properties" Url="html/d1d6aac9-017e-96a4-74fe-aac5eaf3a6af.htm">
+        <HelpTOCNode Title="Album Property " Url="html/85d490df-f2d2-622b-5e2a-86afef6b934d.htm" />
+        <HelpTOCNode Title="AlbumArt Property " Url="html/4a9bf2b5-699a-823d-ffc3-019beae97f20.htm" />
+        <HelpTOCNode Title="Artist Property " Url="html/731347be-c1df-db9a-ebdf-1a5cd27bd0cb.htm" />
+        <HelpTOCNode Title="ArtistPlayed Property " Url="html/940963f2-1af5-120a-dd20-291f794f9d22.htm" />
+        <HelpTOCNode Title="AutoFree Property " Url="html/d95be581-81eb-e065-b4ac-ee48044ed5dc.htm" />
+        <HelpTOCNode Title="bCueDuration Property " Url="html/7fef1dc1-7122-464c-ae3a-f45c3c18a040.htm" />
+        <HelpTOCNode Title="bCueEnd Property " Url="html/e30ab915-4e84-a971-3e6c-3eea00e38bf7.htm" />
+        <HelpTOCNode Title="bCueIntro Property " Url="html/f5c6d433-5e03-7f57-bf13-871721eb1469.htm" />
+        <HelpTOCNode Title="bCueLoopIn Property " Url="html/471699a6-0dc4-b55b-4797-c3e2be2cd55b.htm" />
+        <HelpTOCNode Title="bCueLoopOut Property " Url="html/74593410-cb3a-3ac3-e1fc-bc8828beb1a8.htm" />
+        <HelpTOCNode Title="bCueNext Property " Url="html/662e3fcb-ec69-ec01-b710-61a924448afb.htm" />
+        <HelpTOCNode Title="bCueOutro Property " Url="html/86a69098-4bfd-4b09-80ac-a830a2f50c00.htm" />
+        <HelpTOCNode Title="bCueStart Property " Url="html/11371bbb-6c78-3358-e44c-e3f335bc4ced.htm" />
+        <HelpTOCNode Title="BPM Property " Url="html/04e38479-5df2-86bb-de8c-7da508eabc7e.htm" />
+        <HelpTOCNode Title="bPosition Property " Url="html/d7866044-3406-a226-234b-f7a3d6b7f7bf.htm" />
+        <HelpTOCNode Title="BuyLink Property " Url="html/de31300a-b50b-7178-df15-13f1ffc220aa.htm" />
+        <HelpTOCNode Title="Comments Property " Url="html/e38f7dd0-7ea4-b7b5-2492-4b616e0de1bb.htm" />
+        <HelpTOCNode Title="Composer Property " Url="html/f1d170ed-dc9f-75d3-f991-d0bc9ef0962c.htm" />
+        <HelpTOCNode Title="Copyright Property " Url="html/aa273e32-3c53-ee7a-5d5a-80bd506fad47.htm" />
+        <HelpTOCNode Title="CountPlayed Property " Url="html/2802fea4-3ad0-16ee-5b68-f63589f8c9c7.htm" />
+        <HelpTOCNode Title="cueEnd Property " Url="html/319b0a9e-207f-222c-0e73-b3d6ca6eeb2b.htm" />
+        <HelpTOCNode Title="cueIntro Property " Url="html/dec6f251-bea4-1bae-e4f1-6bdd41f31a2a.htm" />
+        <HelpTOCNode Title="cueLoopIn Property " Url="html/da91197c-adb7-e473-be0e-f7ee4f3d7569.htm" />
+        <HelpTOCNode Title="cueLoopOut Property " Url="html/edb0f8de-9c8a-18f1-9677-3412abda9a1f.htm" />
+        <HelpTOCNode Title="cueNext Property " Url="html/ad7a74ba-78f7-e7b7-ca87-3c369dfa39ac.htm" />
+        <HelpTOCNode Title="cueOutro Property " Url="html/74cafb94-fe05-c89a-5dad-c046dd60c896.htm" />
+        <HelpTOCNode Title="cueStart Property " Url="html/80293b50-afde-d7c8-3147-895490cc695a.htm" />
+        <HelpTOCNode Title="CueTimes Property " Url="html/d1b76594-26a6-27f8-2ece-0f9fb0888f06.htm" />
+        <HelpTOCNode Title="DatePlayed Property " Url="html/eb471240-9f5f-e73c-2299-382bef04feb6.htm" />
+        <HelpTOCNode Title="DateRequested Property " Url="html/3cfe0757-5a83-baa6-58fa-33a94b7027fc.htm" />
+        <HelpTOCNode Title="DiscNo Property " Url="html/3ef69977-d694-3d12-178e-0edd1f635b29.htm" />
+        <HelpTOCNode Title="Duration Property " Url="html/4fbdd1be-3680-f880-107c-5c077eb66a92.htm" />
+        <HelpTOCNode Title="Elapsed Property " Url="html/173107f3-0bc1-ee36-bed8-9115ecefa8ee.htm" />
+        <HelpTOCNode Title="Enabled Property " Url="html/73d83355-6efc-4eec-4079-6f64750512de.htm" />
+        <HelpTOCNode Title="EndDate Property " Url="html/f29f9f98-2456-a841-f036-41be7a8dadc9.htm" />
+        <HelpTOCNode Title="FadeIn Property " Url="html/3c866e94-acc4-1360-516a-6220dfdb0575.htm" />
+        <HelpTOCNode Title="FadeOut Property " Url="html/7f2b8371-82f4-2f29-ed01-cdcabf7cb121.htm" />
+        <HelpTOCNode Title="FadeType Property " Url="html/44b06596-ab26-8ed0-0777-c4c8e52a42b8.htm" />
+        <HelpTOCNode Title="HighPrecision Property " Url="html/fcc5c313-9f84-c309-5193-9690e07475e8.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/c464d714-da7e-83de-14c2-db3c7dc440db.htm" />
+        <HelpTOCNode Title="IDGenre Property " Url="html/4a38c73e-a44c-3b45-0b27-ae6ac2957f20.htm" />
+        <HelpTOCNode Title="IDSubcat Property " Url="html/4cf0cc31-8ba6-c12d-f749-ada8a9ceccc2.htm" />
+        <HelpTOCNode Title="isOverlay Property " Url="html/154c1878-718a-9151-b63a-1802f7a49e0a.htm" />
+        <HelpTOCNode Title="IsPaused Property " Url="html/ecb87133-1d92-c594-53cc-d46264d7d2ba.htm" />
+        <HelpTOCNode Title="IsPlaying Property " Url="html/2f396f41-a470-68b6-6b72-1c7be8588a94.htm" />
+        <HelpTOCNode Title="isPodcast Property " Url="html/0605dca8-3719-8e79-7f4d-34fecea4ef0a.htm" />
+        <HelpTOCNode Title="Isrc Property " Url="html/9bc80918-e15c-a2ce-becd-3ccf14cf6e73.htm" />
+        <HelpTOCNode Title="LimitAction Property " Url="html/f52043b0-2340-72cd-2138-42497d3b4e3b.htm" />
+        <HelpTOCNode Title="LoopMode Property " Url="html/73bdf737-90ed-9308-81a2-aff5f9f99b54.htm" />
+        <HelpTOCNode Title="OriginalArtist Property " Url="html/27cfac00-7fb7-0c67-ce6e-1e2e3ac21492.htm" />
+        <HelpTOCNode Title="Path Property " Url="html/b4ab5974-665e-db1b-8756-e0af207b626f.htm" />
+        <HelpTOCNode Title="PlayerGroup Property " Url="html/5ae3f458-7af4-5850-18f0-16a53eba74b9.htm" />
+        <HelpTOCNode Title="PlayerID Property " Url="html/79e86ebd-30ba-a74b-d708-0f4903cfd715.htm" />
+        <HelpTOCNode Title="PlayLimit Property " Url="html/d54f6a05-e2b0-b82d-94e9-fe5bc42c74bc.htm" />
+        <HelpTOCNode Title="PlayOnMainMixer Property " Url="html/e00dde42-2839-0c0b-f2cd-f627e4c5491e.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/bd87ba43-2424-7772-bfa5-d477d837a67a.htm" />
+        <HelpTOCNode Title="Publisher Property " Url="html/3fcefcd6-b7b6-70f0-f494-307ea793f372.htm" />
+        <HelpTOCNode Title="Remaining Property " Url="html/49638c23-f91e-839a-8433-669502c32794.htm" />
+        <HelpTOCNode Title="RequestMessage Property " Url="html/ab9ddf79-27a7-494e-b9a8-d6b357f923b1.htm" />
+        <HelpTOCNode Title="RequestUser Property " Url="html/f581403f-44ef-88a7-7524-3a7efc65155d.htm" />
+        <HelpTOCNode Title="SetVolumeEnvelopes Property " Url="html/114d1a96-bafd-1250-40c3-441b1704ebdd.htm" />
+        <HelpTOCNode Title="SongType Property " Url="html/70617097-decd-4194-1c80-1ce0af9ab816.htm" />
+        <HelpTOCNode Title="StartDate Property " Url="html/cdac3ca9-daf2-b23a-c553-0bd469117f32.htm" />
+        <HelpTOCNode Title="Sweepers Property " Url="html/c6ab85fc-965e-a2cd-612e-a677e663e9ed.htm" />
+        <HelpTOCNode Title="swFirst Property " Url="html/cc3717fb-1bb1-60c2-bbc3-a3de60950911.htm" />
+        <HelpTOCNode Title="swID Property " Url="html/bd7c46ea-5e0e-3152-11ea-5c502778b760.htm" />
+        <HelpTOCNode Title="swName Property " Url="html/52e96421-d484-af89-5446-e08ea42381c6.htm" />
+        <HelpTOCNode Title="swPlay Property " Url="html/27ff6ae9-b465-a665-038b-f56492aca7d1.htm" />
+        <HelpTOCNode Title="SYNCEnd Property " Url="html/89d9cfce-dc41-5536-ced0-7ce77ca96668.htm" />
+        <HelpTOCNode Title="SYNCFree Property " Url="html/3b1f4525-dcf7-6dd6-a829-4e1339dd4286.htm" />
+        <HelpTOCNode Title="SyncFreeID Property " Url="html/6a714c33-dd25-bb1a-26f2-6452713b6b4d.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/e81eb14d-e5d6-e17c-90bf-09b3d8529928.htm" />
+        <HelpTOCNode Title="TrackNo Property " Url="html/b77f599b-c5a9-36a5-4c98-d0f5f0d9e079.htm" />
+        <HelpTOCNode Title="vtID Property " Url="html/2578aa60-bd20-c023-9900-81790778b044.htm" />
+        <HelpTOCNode Title="vtName Property " Url="html/f4742caf-3f96-3919-45bd-dd2b97ba7d25.htm" />
+        <HelpTOCNode Title="vtPlay Property " Url="html/fbdc7ee8-77d4-a5b3-6ff1-94b27dbfa85f.htm" />
+        <HelpTOCNode Title="Weight Property " Url="html/9e3f626a-7ff2-bc12-893b-1d72a9705569.htm" />
+        <HelpTOCNode Title="WithLoop Property " Url="html/ea80cbfd-7f8b-e9ab-20c1-9662753c3adb.htm" />
+        <HelpTOCNode Title="Year Property " Url="html/f1b69fdf-ab95-8b3b-178b-a3161f0365f8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="11b49292-4a86-4c2c-95ab-fe0aaa934ad2" Title="SongData Methods" Url="html/cf985213-a304-a060-63ca-2ebd441b1e62.htm">
+        <HelpTOCNode Title="FreePlayer Method " Url="html/a3b08314-0751-b3c3-2819-dde10f61b330.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/16f8035f-2e2e-e173-b647-d6abfde38db1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SoundCards Enumeration" Url="html/24218203-5a5b-fbe3-0e54-8dd2f8fc02ad.htm" />
+    <HelpTOCNode Id="7ff44e2b-c3eb-49d9-909e-16d08b7be3ee" Title="TableData Class" Url="html/3ced4e5e-1268-f14e-ccd6-1b6b40708561.htm">
+      <HelpTOCNode Title="TableData Constructor " Url="html/39486404-8fed-eeae-3392-e8bb9e3aaa54.htm" />
+      <HelpTOCNode Id="19ed0526-8278-43e2-b8d3-a867eb869975" Title="TableData Methods" Url="html/434e57a0-8115-4935-4f7d-dcf2cc68ac10.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/4d5dc682-f6a1-7d88-cb11-34fc3b72eef3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2ed6d992-932a-4149-8c06-8a745b62925f" Title="TableData Fields" Url="html/ef012764-c7fc-5def-ce75-81a030894096.htm">
+        <HelpTOCNode Title="TableID Field" Url="html/31067257-0536-e214-8175-cec5beae5daa.htm" />
+        <HelpTOCNode Title="TableName Field" Url="html/ea1d2be2-4064-c4bb-a1f1-54357bdc67d3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="TrackFields Enumeration" Url="html/5fbfcd12-8a16-18cc-d068-713c64a50d3d.htm" />
+    <HelpTOCNode Title="TrackTypes Enumeration" Url="html/9248ccec-2141-7170-38fc-7c3b32935303.htm" />
+    <HelpTOCNode Id="afe83568-b000-4a27-846d-26a39cadc1fc" Title="Utils Class" Url="html/c54b3a10-420e-92a3-f4cf-d833fae144ad.htm">
+      <HelpTOCNode Title="Utils Constructor " Url="html/54f82114-27e2-b3c3-c0d6-0ad40918f297.htm" />
+      <HelpTOCNode Id="6a7844cb-c543-41ea-a65c-fbebedd5e231" Title="Utils Methods" Url="html/77e5c419-ed3d-c7ee-d9b7-315aeaa0008a.htm">
+        <HelpTOCNode Title="BuildFilename Method " Url="html/1a4af707-140a-5079-eaf7-a718c9ae2167.htm" />
+        <HelpTOCNode Title="FileNameExtension Method " Url="html/bcee9d99-4b28-514f-4089-5ea7d03288fe.htm" />
+        <HelpTOCNode Title="FileNameWithoutExtension Method " Url="html/44d1bc4c-5c0c-43fa-b951-84e38afa534f.htm" />
+        <HelpTOCNode Title="GetDirName Method " Url="html/b7bd5cf3-6de8-b3db-a3fe-c14db456626e.htm" />
+        <HelpTOCNode Title="GetFileByDate Method " Url="html/1a6cd93b-dfff-5237-929d-90532146ff2b.htm" />
+        <HelpTOCNode Title="GetFileName Method " Url="html/39ce808e-54b1-7084-250a-0f3de9932a8b.htm" />
+        <HelpTOCNode Title="GetFileSize Method " Url="html/223787d3-57ce-91be-95f8-7460d8dba0fa.htm" />
+        <HelpTOCNode Title="GetFilesRecursive Method " Url="html/d2c4de98-17a6-d177-4ba9-41d9af6345ff.htm" />
+        <HelpTOCNode Title="GetNewestFile Method " Url="html/e339c668-8803-7d45-44d4-09051c2a0eb9.htm" />
+        <HelpTOCNode Title="GetPodcastFile Method " Url="html/73b3c5fe-26ce-93f8-10d0-f3ce583a9cba.htm" />
+        <HelpTOCNode Title="QueryFix Method " Url="html/d9c6a3a0-2719-c673-fc0a-16ee36701dfc.htm" />
+        <HelpTOCNode Title="SplitSongCue Method " Url="html/c07462f4-3c1a-93b7-71b5-d77bee08abec.htm" />
+        <HelpTOCNode Title="String2Double Method " Url="html/b9cb5add-a710-17d7-de9e-ea58e95a64c8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
